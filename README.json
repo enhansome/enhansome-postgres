@@ -1,0 +1,2259 @@
+{
+  "items": [
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Patroni",
+          "description": "Template for PostgreSQL HA with ZooKeeper or etcd.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-12T14:21:15Z",
+            "owner": "patroni",
+            "repo": "patroni",
+            "stars": 8655
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Stolon",
+          "description": "PostgreSQL HA based on Consul or etcd, with Kubernetes integration.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2024-07-08T16:32:33Z",
+            "owner": "sorintlab",
+            "repo": "stolon",
+            "stars": 4825
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "autobase",
+          "description": "Autobase for PostgreSQL® is an open-source DBaaS that automates the deployment and management of highly available PostgreSQL clusters.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-12T14:19:34Z",
+            "owner": "autobase-tech",
+            "repo": "autobase",
+            "stars": 4334
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "repmgr",
+          "description": "Open-source tool suite to manage replication and failover in a cluster of PostgreSQL servers.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-03-28T16:04:11Z",
+            "owner": "EnterpriseDB",
+            "repo": "repmgr",
+            "stars": 1707
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pg_auto_failover",
+          "description": "Postgres extension and service for automated failover and high-availability.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-13T23:31:55Z",
+            "owner": "hapostgres",
+            "repo": "pg_auto_failover",
+            "stars": 1373
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Spock",
+          "description": "100% open-source logical multi-master PostgreSQL replication.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-13T16:09:35Z",
+            "owner": "pgEdge",
+            "repo": "spock",
+            "stars": 744
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "BDR",
+          "description": "BiDirectional Replication - a multimaster replication system for PostgreSQL",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2020-02-20T04:05:19Z",
+            "owner": "2ndQuadrant",
+            "repo": "bdr",
+            "stars": 359
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "PAF",
+          "description": "PostgreSQL Automatic Failover: High-Availibility for Postgres, based on Pacemaker and Corosync.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Perl",
+            "last_commit": "2024-06-13T10:03:18Z",
+            "owner": "ClusterLabs",
+            "repo": "PAF",
+            "stars": 351
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SkyTools",
+          "description": "Replication tools, including PgQ, a queuing system, and Londiste, a replication system a bit simpler to manage than Slony.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "Python",
+            "last_commit": "2017-06-28T14:24:24Z",
+            "owner": "pgq",
+            "repo": "skytools-legacy",
+            "stars": 249
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pglookout",
+          "description": "Replication monitoring and failover daemon.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-03-02T14:04:45Z",
+            "owner": "Aiven-Open",
+            "repo": "pglookout",
+            "stars": 190
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pgrwl",
+          "description": "Stream write-ahead logs (WAL) from a PostgreSQL server in real time. A drop-in, container-friendly alternative to pg_receivewal.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T21:14:39Z",
+            "owner": "pgrwl",
+            "repo": "pgrwl",
+            "stars": 180
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pg-status",
+          "description": "A microservice that provides HTTP endpoints for instantly retrieving the current master host or a replica that meets various criteria.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-02T18:59:19Z",
+            "owner": "krylosov-aa",
+            "repo": "pg-status",
+            "stars": 80
+          }
+        }
+      ],
+      "title": "High-Availability"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "wal-g",
+          "description": "The successor of WAL-E rewritten in Go. Currently supports cloud object storage services by AWS (S3), Google Cloud (GCS), Azure, as well as OpenStack Swift, MinIO, and file system storages. Supports block-level incremental backups, offloading backup tasks to a standby server, provides parallelization and throttling options. In addition to Postgres, WAL-G can be used for MySQL and MongoDB databases.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T11:21:19Z",
+            "owner": "wal-g",
+            "repo": "wal-g",
+            "stars": 4223
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wal-e",
+          "description": "(obsolete) - Simple Continuous Archiving for PostgreSQL to S3, Azure, or Swift by Heroku.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2023-12-20T06:01:14Z",
+            "owner": "wal-e",
+            "repo": "wal-e",
+            "stars": 3468
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pgbackweb",
+          "description": "A Complete Docker-based Postgres backup and maintenance tool with Web UI.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2025-11-21T23:53:15Z",
+            "owner": "eduardolat",
+            "repo": "pgbackweb",
+            "stars": 2617
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pghoard",
+          "description": "Backup and restore tool for cloud object stores (AWS S3, Azure, Google Cloud, OpenStack Swift).",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T12:55:56Z",
+            "owner": "Aiven-Open",
+            "repo": "pghoard",
+            "stars": 1417
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pg_probackup",
+          "description": "A fork of pg_arman, improved by @PostgresPro, supports incremental backups, backups from replica, multithreaded backup and restore, and anonymous backup without archive command.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-07-12T20:18:06Z",
+            "owner": "postgrespro",
+            "repo": "pg_probackup",
+            "stars": 799
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pg_back",
+          "description": "pg_back is a simple backup script",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-06-02T11:11:05Z",
+            "owner": "orgrim",
+            "repo": "pg_back",
+            "stars": 565
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "OmniPITR",
+          "description": "Advanced WAL File Management Tools for PostgreSQL.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Perl",
+            "last_commit": "2019-06-25T09:11:08Z",
+            "owner": "omniti-labs",
+            "repo": "omnipitr",
+            "stars": 179
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pg-backups-to-s3",
+          "description": "Docker-first solution on top of pg_dump with support for environment-based configuration for scheduled PostgreSQL backups with optional compression, GPG encryption, webhooks, automatic upload to Amazon S3.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "PLpgSQL",
+            "last_commit": "2025-05-30T17:45:56Z",
+            "owner": "Saicheg",
+            "repo": "pg-backups-to-s3",
+            "stars": 19
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pgbackup-sidecar",
+          "description": "is a lightweight Docker sidecar container designed to automate regular backups of a PostgreSQL database using , , and bash scripts while also sending output to a webhook.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2024-11-08T13:30:34Z",
+            "owner": "Musab520",
+            "repo": "pgbackup-sidecar",
+            "stars": 5
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "postgres-backup-oss",
+          "description": "A handy Docker container to periodically backup PostgreSQL to Alibaba Cloud Object Storage Service (OSS)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2025-05-12T09:21:08Z",
+            "owner": "isaced",
+            "repo": "postgres-backup-oss",
+            "stars": 1
+          }
+        }
+      ],
+      "title": "Backups"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Redash",
+          "description": "Connect to any data source, easily visualize and share your data.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-10T16:48:54Z",
+            "owner": "getredash",
+            "repo": "redash",
+            "stars": 28746
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Teable",
+          "description": "A Super fast, Real-time, Professional, Developer friendly, No code database.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-14T04:15:12Z",
+            "owner": "teableio",
+            "repo": "teable",
+            "stars": 21659
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pgweb",
+          "description": "Web-based PostgreSQL database browser written in Go.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-07-26T22:30:33Z",
+            "owner": "sosedoff",
+            "repo": "pgweb",
+            "stars": 9476
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Postbird",
+          "description": "PostgreSQL Client for macOS.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2025-06-30T21:50:07Z",
+            "owner": "Paxa",
+            "repo": "postbird",
+            "stars": 1635
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "PgManage",
+          "description": "A modern multi-platform Postgres-centric database client/administration tool.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "PLpgSQL",
+            "last_commit": "2026-08-11T15:13:56Z",
+            "owner": "commandprompt",
+            "repo": "Audax-Data-Manager",
+            "stars": 1029
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "phpPgAdmin",
+          "description": "The Premier Web Based Administration Tool for PostgreSQL.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "PHP",
+            "last_commit": "2024-07-30T12:40:06Z",
+            "owner": "phppgadmin",
+            "repo": "phppgadmin",
+            "stars": 845
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "temBoard",
+          "description": "Web-based PostgreSQL GUI and monitoring.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-07-30T06:00:34Z",
+            "owner": "dalibo",
+            "repo": "temboard",
+            "stars": 767
+          }
+        }
+      ],
+      "title": "GUI"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "pgcli",
+          "description": "Postgres CLI with autocompletion and syntax highlighting",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-03T15:06:13Z",
+            "owner": "dbcli",
+            "repo": "pgcli",
+            "stars": 13349
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "atlas",
+          "description": "Atlas is a tool for managing and migrating database schemas using modern DevOps principles.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-02T09:01:02Z",
+            "owner": "ariga",
+            "repo": "atlas",
+            "stars": 8639
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "schemaspy",
+          "description": "SchemaSpy is a JAVA JDBC-compliant tool for generating your database to HTML documentation, including Entity Relationship diagrams",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "HTML",
+            "last_commit": "2026-03-05T20:31:40Z",
+            "owner": "schemaspy",
+            "repo": "schemaspy",
+            "stars": 3705
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pg-schema-diff",
+          "description": "CLI (and Golang library) for diffing Postgres schemas and generating SQL migrations with minimal locking.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-06T09:59:31Z",
+            "owner": "stripe",
+            "repo": "pg-schema-diff",
+            "stars": 871
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pgsh",
+          "description": "Branch your PostgreSQL Database like Git",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2023-01-11T02:40:07Z",
+            "owner": "sastraxi",
+            "repo": "pgsh",
+            "stars": 604
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "squix",
+          "description": "SQL command-line client with query management and interactive results.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-06T12:02:49Z",
+            "owner": "eduardofuncao",
+            "repo": "squix",
+            "stars": 267
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "sabiql",
+          "description": "A fast, driver-less TUI to browse, query, and edit PostgreSQL databases.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-14T04:40:24Z",
+            "owner": "riii111",
+            "repo": "sabiql",
+            "stars": 250
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "psql2csv",
+          "description": "Run a query in psql and output the result as CSV",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2022-02-23T17:40:42Z",
+            "owner": "fphilipe",
+            "repo": "psql2csv",
+            "stars": 186
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pgplan",
+          "description": "compare and analyze PostgreSQL EXPLAIN plans from the CLI",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-04T21:28:48Z",
+            "owner": "JacobArthurs",
+            "repo": "pgplan",
+            "stars": 13
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "MigrationPilot",
+          "description": "PostgreSQL migration safety CLI that catches dangerous DDL before production — 80 rules, lock classification, auto-fix, GitHub Action.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-12T19:46:24Z",
+            "owner": "mickelsamuel",
+            "repo": "migrationpilot",
+            "stars": 5
+          }
+        }
+      ],
+      "title": "CLI"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "coroot",
+          "description": "Coroot is an open-source APM & Observability tool, a DataDog and NewRelic alternative. Powered by eBPF for rapid insights into system performance.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-11T14:55:39Z",
+            "owner": "coroot",
+            "repo": "coroot",
+            "stars": 7871
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "postgres_exporter",
+          "description": "Prometheus exporter for PostgreSQL server metrics.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-12T21:23:38Z",
+            "owner": "prometheus-community",
+            "repo": "postgres_exporter",
+            "stars": 3593
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "dexter",
+          "description": "The automatic indexer for Postgres. Detects slow queries and creates indexes if configured to do so.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Ruby",
+            "last_commit": "2026-07-30T06:14:54Z",
+            "owner": "ankane",
+            "repo": "dexter",
+            "stars": 2092
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pgwatch2",
+          "description": "Flexible and easy to get started PostgreSQL metrics monitor focusing on Grafana dashboards.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "PLpgSQL",
+            "last_commit": "2024-12-17T15:13:26Z",
+            "owner": "cybertec-postgresql",
+            "repo": "pgwatch2",
+            "stars": 1836
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "PMM",
+          "description": "Percona Monitoring and Management (PMM) is a Free and Open Source platform for monitoring and managing PostgreSQL, MySQL, and MongoDB.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T23:11:59Z",
+            "owner": "percona",
+            "repo": "pmm",
+            "stars": 1084
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Pome",
+          "description": "Pome stands for PostgreSQL Metrics. Pome is a PostgreSQL Metrics Dashboard to keep track of the health of your database.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2020-09-04T00:23:01Z",
+            "owner": "rach",
+            "repo": "pome",
+            "stars": 1071
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Check_postgres",
+          "description": "Nagios check_postgres plugin for checking status of PostgreSQL databases.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Perl",
+            "last_commit": "2025-01-02T02:31:47Z",
+            "owner": "bucardo",
+            "repo": "check_postgres",
+            "stars": 602
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pg_view",
+          "description": "Open-source command-line tool that shows global system stats, per-partition information, memory stats and other information.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2023-03-25T12:24:34Z",
+            "owner": "zalando",
+            "repo": "pg_view",
+            "stars": 506
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pg_exporter",
+          "description": "Fully customizable Prometheus exporter for PostgreSQL & Pgbouncer with fine-grained execution control.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-09T06:50:32Z",
+            "owner": "pgsty",
+            "repo": "pg_exporter",
+            "stars": 359
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pg_ash",
+          "description": "Active Session History for PostgreSQL. Samples pg_stat_activity once per second via pg_cron, stores encoded snapshots, and provides 32 SQL functions for wait event analysis. Pure SQL, no extensions, works on managed providers (RDS, Cloud SQL, Supabase, etc.).",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "PLpgSQL",
+            "last_commit": "2026-08-03T22:26:34Z",
+            "owner": "NikolayS",
+            "repo": "pg_ash",
+            "stars": 236
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "check_pgactivity",
+          "description": "check_pgactivity is designed to monitor PostgreSQL clusters from Nagios. It offers many options to measure and monitor useful performance metrics.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Perl",
+            "last_commit": "2026-07-03T09:51:36Z",
+            "owner": "OPMDG",
+            "repo": "check_pgactivity",
+            "stars": 184
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "libzbxpgsql",
+          "description": "Comprehensive PostgreSQL monitoring module for Zabbix.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2023-11-14T14:26:30Z",
+            "owner": "zabbix-tools",
+            "repo": "libzbxpgsql",
+            "stars": 156
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Instrumental",
+          "description": "Real-time performance monitoring, including pre-made graphs for ease of setup (Commercial Software)",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "HTML",
+            "last_commit": "2018-09-17T20:30:24Z",
+            "owner": "Instrumental",
+            "repo": "instrumentald",
+            "stars": 15
+          }
+        }
+      ],
+      "title": "Monitoring"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Citus",
+          "description": "Scalable PostgreSQL cluster for real-time workloads.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-13T11:39:20Z",
+            "owner": "citusdata",
+            "repo": "citus",
+            "stars": 12689
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pg_search",
+          "description": "pg_search is a PostgreSQL extension that enables full-text search over SQL tables using the BM25 algorithm, the state-of-the-art ranking function for full-text search.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-14T01:00:54Z",
+            "owner": "paradedb",
+            "repo": "paradedb",
+            "stars": 9152
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ParadeDB",
+          "description": "Postgres for Search and Analytics",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-14T01:00:54Z",
+            "owner": "paradedb",
+            "repo": "paradedb",
+            "stars": 9152
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "AGE",
+          "description": "Adds fully-functional graph database support including Cypher queries.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-07-17T09:42:01Z",
+            "owner": "apache",
+            "repo": "age",
+            "stars": 4740
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "zomboDB",
+          "description": "Extension that enables efficient full-text searching via the use of indexes backed by Elasticsearch.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "PLpgSQL",
+            "last_commit": "2025-03-01T19:28:06Z",
+            "owner": "zombodb",
+            "repo": "zombodb",
+            "stars": 4719
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pg_cron",
+          "description": "Run periodic jobs in PostgreSQL.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-07-21T09:26:36Z",
+            "owner": "citusdata",
+            "repo": "pg_cron",
+            "stars": 3868
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pg_partman",
+          "description": "Partition management extension for PostgreSQL.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "PLpgSQL",
+            "last_commit": "2026-07-26T15:16:57Z",
+            "owner": "pgpartman",
+            "repo": "pg_partman",
+            "stars": 2792
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "cstore_fdw",
+          "description": "Columnar store for analytics with PostgreSQL.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2021-03-08T08:37:44Z",
+            "owner": "citusdata",
+            "repo": "cstore_fdw",
+            "stars": 1782
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "HypoPG",
+          "description": "HypoPG provides hypothetical/virtual indexes feature.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-06-19T23:40:27Z",
+            "owner": "HypoPG",
+            "repo": "hypopg",
+            "stars": 1692
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pgRouting",
+          "description": "pgRouting extends the PostGIS/PostgreSQL geospatial database to provide geospatial routing and other network analysis functionality.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-08-10T16:10:10Z",
+            "owner": "pgRouting",
+            "repo": "pgrouting",
+            "stars": 1420
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pglogical",
+          "description": "Extension that provides logical streaming replication.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-07-28T18:10:14Z",
+            "owner": "2ndQuadrant",
+            "repo": "pglogical",
+            "stars": 1236
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pg_shard",
+          "description": "Extension to scale out real-time reads and writes.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2016-08-03T05:17:18Z",
+            "owner": "citusdata",
+            "repo": "pg_shard",
+            "stars": 1062
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "plpgsql_check",
+          "description": "Extension that allows to check plpgsql source code.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-01T03:56:30Z",
+            "owner": "okbob",
+            "repo": "plpgsql_check",
+            "stars": 775
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pg_squeeze",
+          "description": "An extension for automatic bloat cleanup with minimal locking.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-07-29T15:33:18Z",
+            "owner": "cybertec-postgresql",
+            "repo": "pg_squeeze",
+            "stars": 689
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pg_stat_monitor",
+          "description": "Query Performance Monitoring tool for PostgreSQL.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Perl",
+            "last_commit": "2026-08-13T05:29:03Z",
+            "owner": "percona",
+            "repo": "pg_stat_monitor",
+            "stars": 586
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pgMemento",
+          "description": "Provides an audit trail for your data inside a PostgreSQL database using triggers and server-side functions written in PL/pgSQL.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "PLpgSQL",
+            "last_commit": "2026-04-27T09:03:18Z",
+            "owner": "pgMemento",
+            "repo": "pgMemento",
+            "stars": 411
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pgcat",
+          "description": "Enhanced PostgreSQL logical replication",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2024-09-26T15:43:56Z",
+            "owner": "kingluo",
+            "repo": "pgcat",
+            "stars": 386
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pg_paxos",
+          "description": "Basic implementation of Paxos and Paxos-based table replication for a cluster of PostgreSQL nodes.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "C",
+            "last_commit": "2022-09-16T14:16:45Z",
+            "owner": "microsoft",
+            "repo": "pg_paxos",
+            "stars": 309
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "PG_Themis",
+          "description": "Postgres binding as extension for crypto library Themis, providing various security services on PgSQL's side.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2016-12-12T16:07:59Z",
+            "owner": "cossacklabs",
+            "repo": "pg_themis",
+            "stars": 33
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pg_barcode",
+          "description": "PostgreSQL SVG QRcode & Datamatrix generator.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2025-01-09T14:16:25Z",
+            "owner": "btouchard",
+            "repo": "pg_barcode",
+            "stars": 1
+          }
+        }
+      ],
+      "title": "Extensions"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "river",
+          "description": "A high-performance job processing system for Go and Postgres.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:00:53Z",
+            "owner": "riverqueue",
+            "repo": "river",
+            "stars": 5560
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pgmq",
+          "description": "A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-10T04:25:58Z",
+            "owner": "pgmq",
+            "repo": "pgmq",
+            "stars": 5084
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pgBoss",
+          "description": "Queueing jobs in Postgres from Node.js like a boss.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-03T20:10:48Z",
+            "owner": "timgit",
+            "repo": "pg-boss",
+            "stars": 3851
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "BeanQueue",
+          "description": "A Python work queue framework based on SKIP LOCKED, LISTEN and NOTIFY",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-07-04T19:29:11Z",
+            "owner": "LaunchPlatform",
+            "repo": "bq",
+            "stars": 28
+          }
+        }
+      ],
+      "title": "Work Queues"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "PgHero",
+          "description": "PostgreSQL insights made easy.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Ruby",
+            "last_commit": "2026-08-13T19:24:59Z",
+            "owner": "ankane",
+            "repo": "pghero",
+            "stars": 8909
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "PEV2",
+          "description": "Online Postgres Explain Visualizer.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-11T05:50:09Z",
+            "owner": "dalibo",
+            "repo": "pev2",
+            "stars": 3563
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pgtune",
+          "description": "Online version of PostgreSQL configuration wizard.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2026-08-08T22:34:41Z",
+            "owner": "le0pard",
+            "repo": "pgtune",
+            "stars": 2735
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pg_flame",
+          "description": "A flamegraph generator for query plans.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2020-01-13T23:28:06Z",
+            "owner": "mgartner",
+            "repo": "pg_flame",
+            "stars": 1619
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pgtune",
+          "description": "PostgreSQL configuration wizard.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2021-08-17T05:31:55Z",
+            "owner": "gregs1104",
+            "repo": "pgtune",
+            "stars": 1087
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "TimescaleDB Tune",
+          "description": "a program for tuning a TimescaleDB database to perform its best based on the host's resources such as memory and number of CPUs.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-03T16:24:16Z",
+            "owner": "timescale",
+            "repo": "timescaledb-tune",
+            "stars": 501
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "aqo",
+          "description": "Adaptive query optimization for PostgreSQL.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-06-27T15:51:01Z",
+            "owner": "postgrespro",
+            "repo": "aqo",
+            "stars": 499
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pg_web_stats",
+          "description": "Web UI to view pg_stat_statements.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Ruby",
+            "last_commit": "2018-10-14T14:19:57Z",
+            "owner": "kirs",
+            "repo": "pg_web_stats",
+            "stars": 97
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pgconfig.org",
+          "description": "PostgreSQL Online Configuration Tool (also based on pgtune).",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "JavaScript",
+            "last_commit": "2020-08-20T20:36:19Z",
+            "owner": "sebawebber",
+            "repo": "pgconfig",
+            "stars": 88
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pgassistant",
+          "description": "A PostgreSQL tool for developers to help understand, optimize database with LLM and pgTune integration.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2026-08-11T04:26:27Z",
+            "owner": "beh74",
+            "repo": "pgassistant-community",
+            "stars": 41
+          }
+        }
+      ],
+      "title": "Optimization"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Hasura GraphQL Engine",
+          "description": "Blazing fast, instant realtime GraphQL APIs on Postgres with fine grained access control, also trigger webhooks on database events.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-11T13:28:07Z",
+            "owner": "hasura",
+            "repo": "graphql-engine",
+            "stars": 32082
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "PostgREST",
+          "description": "Serves a fully RESTful API from any existing PostgreSQL database.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Haskell",
+            "last_commit": "2026-08-13T21:06:15Z",
+            "owner": "PostgREST",
+            "repo": "postgrest",
+            "stars": 27596
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "PostGraphile",
+          "description": "Instant GraphQL API or GraphQL schema for your PostgreSQL database",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-11T20:29:31Z",
+            "owner": "graphile",
+            "repo": "crystal",
+            "stars": 12930
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pgroll",
+          "description": "Zero-downtime, reversible, schema migrations for Postgres",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-07-10T19:57:51Z",
+            "owner": "xataio",
+            "repo": "pgroll",
+            "stars": 6550
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pgloader",
+          "description": "Loads data into PostgreSQL using the COPY streaming protocol, and does so with separate threads for reading and writing data.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Common Lisp",
+            "last_commit": "2026-07-24T14:35:08Z",
+            "owner": "dimitri",
+            "repo": "pgloader",
+            "stars": 6499
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pREST",
+          "description": "Serve a RESTful API from any PostgreSQL database (Golang)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-11T22:40:38Z",
+            "owner": "prest",
+            "repo": "prest",
+            "stars": 4611
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pgbadger",
+          "description": "Fast PostgreSQL Log Analyzer.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Perl",
+            "last_commit": "2026-07-14T17:54:44Z",
+            "owner": "darold",
+            "repo": "pgbadger",
+            "stars": 4051
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pgsync",
+          "description": "Tool to sync PostgreSQL data to your local machine.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Ruby",
+            "last_commit": "2025-12-26T15:11:44Z",
+            "owner": "ankane",
+            "repo": "pgsync",
+            "stars": 3467
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "sqitch",
+          "description": "Tool for managing versioned schema deployment",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Perl",
+            "last_commit": "2026-08-02T02:44:21Z",
+            "owner": "sqitchers",
+            "repo": "sqitch",
+            "stars": 3151
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "migra",
+          "description": "Like diff but for Postgres schemas.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-08-25T12:32:22Z",
+            "owner": "djrobstep",
+            "repo": "migra",
+            "stars": 3051
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pg_activity",
+          "description": "top like application for PostgreSQL server activity monitoring.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-01T06:03:15Z",
+            "owner": "dalibo",
+            "repo": "pg_activity",
+            "stars": 3034
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "sqlcheck",
+          "description": "Automatically detects common SQL anti-patterns. Such anti-patterns often slow down queries. Addressing them will, therefore, help accelerate queries.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2024-02-21T13:30:05Z",
+            "owner": "jarulraj",
+            "repo": "sqlcheck",
+            "stars": 2520
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Greenmask",
+          "description": "Database anonymization and synthetic data generation tool for MySQL and PostgreSQL.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-05T16:06:19Z",
+            "owner": "GreenmaskIO",
+            "repo": "greenmask",
+            "stars": 1745
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pgCenter",
+          "description": "Provides convenient interface to various statistics, management task, reloading services, viewing log files and canceling or terminating database backends.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-06T11:45:45Z",
+            "owner": "lesovsky",
+            "repo": "pgcenter",
+            "stars": 1624
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ERAlchemy",
+          "description": "ERAlchemy generates Entity Relation (ER) diagram from databases.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-05-05T14:20:10Z",
+            "owner": "eralchemy",
+            "repo": "eralchemy",
+            "stars": 1424
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pg_timetable",
+          "description": "Advanced job scheduler for PostgreSQL.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-07T11:34:22Z",
+            "owner": "cybertec-postgresql",
+            "repo": "pg_timetable",
+            "stars": 1395
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pgfutter",
+          "description": "Import CSV and JSON into PostgreSQL the easy way.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2020-09-02T15:35:53Z",
+            "owner": "lukasmartinelli",
+            "repo": "pgfutter",
+            "stars": 1345
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "yoke",
+          "description": "PostgreSQL high-availability cluster with auto-failover and automated cluster recovery.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "Go",
+            "last_commit": "2016-01-07T00:37:05Z",
+            "owner": "nanopack",
+            "repo": "yoke",
+            "stars": 1341
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "mysql-postgresql-converter",
+          "description": "Lanyrd's MySQL to PostgreSQL conversion script.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2022-09-16T22:15:00Z",
+            "owner": "lanyrd",
+            "repo": "mysql-postgresql-converter",
+            "stars": 1316
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pgMonitor",
+          "description": "Postgres metrics collection and visualization that can be deployed to bare metal, virtual machines, or Kubernetes.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "PLpgSQL",
+            "last_commit": "2026-04-23T12:34:51Z",
+            "owner": "CrunchyData",
+            "repo": "pgmonitor",
+            "stars": 713
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pgmigrate",
+          "description": "CLI tool to evolve schema migrations, developed by Yandex.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-06-19T13:52:53Z",
+            "owner": "yandex",
+            "repo": "pgmigrate",
+            "stars": 668
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "postgresql-metrics",
+          "description": "Tool that extracts and provides metrics for your PostgreSQL database.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2023-05-29T21:56:05Z",
+            "owner": "spotify",
+            "repo": "postgresql-metrics",
+            "stars": 598
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ZSON",
+          "description": "PostgreSQL extension for transparent JSONB compression",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2023-04-14T20:26:36Z",
+            "owner": "postgrespro",
+            "repo": "zson",
+            "stars": 568
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "planter",
+          "description": "Generate PlantUML ER diagram textual description from PostgreSQL tables",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2024-03-30T20:03:11Z",
+            "owner": "achiku",
+            "repo": "planter",
+            "stars": 556
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pg_chameleon",
+          "description": "Real time replica from MySQL to PostgreSQL with optional type override migration and migration capabilities.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-05-25T19:06:08Z",
+            "owner": "the4thdoctor",
+            "repo": "pg_chameleon",
+            "stars": 439
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Pyrseas",
+          "description": "Postgres database schema versioning.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-07-10T21:03:13Z",
+            "owner": "perseas",
+            "repo": "Pyrseas",
+            "stars": 406
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "bemi",
+          "description": "Automatic data change tracking for PostgreSQL",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2025-12-23T18:02:07Z",
+            "owner": "BemiHQ",
+            "repo": "bemi-io",
+            "stars": 401
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pgclimb",
+          "description": "Export data from PostgreSQL into different data formats.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2020-06-18T13:30:36Z",
+            "owner": "lukasmartinelli",
+            "repo": "pgclimb",
+            "stars": 393
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "RegreSQL",
+          "description": "Tool to build, maintain and execute a regression testing suite for SQL queries.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-05-23T11:28:37Z",
+            "owner": "dimitri",
+            "repo": "regresql",
+            "stars": 358
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pg_insights",
+          "description": "Convenient SQL for monitoring Postgres database health.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "TSQL",
+            "last_commit": "2019-12-11T00:53:24Z",
+            "owner": "lob",
+            "repo": "pg_insights",
+            "stars": 310
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "GatewayD",
+          "description": "Cloud-native database gateway and framework for building data-driven applications. Like API gateways, for databases.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-11T03:39:11Z",
+            "owner": "gatewayd-io",
+            "repo": "gatewayd",
+            "stars": 288
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ldap2pg",
+          "description": "Synchronize roles and privileges from YML and LDAP.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-07-22T08:50:29Z",
+            "owner": "dalibo",
+            "repo": "ldap2pg",
+            "stars": 235
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "PGXN client",
+          "description": "Command line tool to interact with the PostgreSQL Extension Network",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-06-14T08:29:58Z",
+            "owner": "pgxn",
+            "repo": "pgxnclient",
+            "stars": 160
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pgspot",
+          "description": "Spot vulnerabilities in PostgreSQL extension scripts.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-14T03:57:51Z",
+            "owner": "timescale",
+            "repo": "pgspot",
+            "stars": 147
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "diesel-guard",
+          "description": "Linter for dangerous Postgres migration patterns in Diesel and SQLx.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-10T13:06:29Z",
+            "owner": "ayarotsky",
+            "repo": "diesel-guard",
+            "stars": 120
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pg-formatter",
+          "description": "A PostgreSQL SQL syntax beautifier (Node.js).",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-03-27T14:04:36Z",
+            "owner": "gajus",
+            "repo": "pg-formatter",
+            "stars": 83
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pg-spot-operator",
+          "description": "A daemon to run stateful Postgres on cheap AWS Spot VMs",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-07-28T21:26:19Z",
+            "owner": "pg-spot-ops",
+            "repo": "pg-spot-operator",
+            "stars": 59
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "NServiceBus.Transport.PostgreSql",
+          "description": "The NServiceBus.Transport.PostgreSql library allows .NET developers to use a PostgreSQL database as a message broker. (Commerical Software)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C#",
+            "last_commit": "2026-08-13T10:52:58Z",
+            "owner": "Particular",
+            "repo": "NServiceBus.SqlServer",
+            "stars": 47
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pgcmp",
+          "description": "Tool to compare database schemas, with capability to accept some persistent differences",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2024-05-15T18:53:56Z",
+            "owner": "cbbrowne",
+            "repo": "pgcmp",
+            "stars": 46
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pg-differ",
+          "description": "Tool for easy initialization / updating of the structure of PostgreSQL tables, migration alternative (Node.js).",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2026-02-22T22:51:58Z",
+            "owner": "multum",
+            "repo": "pg-differ",
+            "stars": 40
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Qail",
+          "description": "rust-first typed AST pipeline for PostgreSQL with compile-time query checks and built-in tenant scoping.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-12T03:14:48Z",
+            "owner": "qail-io",
+            "repo": "qail",
+            "stars": 35
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pg_migrate",
+          "description": "Manage PostgreSQL codebases and make VCS simple.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2017-10-11T19:02:24Z",
+            "owner": "jwdeitch",
+            "repo": "pg_migrate",
+            "stars": 32
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pglistend",
+          "description": "A lightweight PostgresSQL / daemon built on top of .",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2017-03-29T18:32:15Z",
+            "owner": "kabirbaidhya",
+            "repo": "pglistend",
+            "stars": 30
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pg_docs_bot",
+          "description": "Browser extension to redirect PostgreSQL docs links to the current version.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2025-04-04T20:46:57Z",
+            "owner": "mchristofides",
+            "repo": "pg_docs_bot",
+            "stars": 18
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pg-safe-migrate",
+          "description": "Safety-first Node.js migration engine with advisory locks, SHA-256 drift detection, and 10 built-in lint rules for PostgreSQL.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-03-03T00:20:15Z",
+            "owner": "defnotwig",
+            "repo": "pg-safe-migrate",
+            "stars": 1
+          }
+        }
+      ],
+      "title": "Utilities"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Node: node-postgres",
+          "description": ", pg-promise, pogi, slonik, postgres",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2026-08-12T02:44:18Z",
+            "owner": "brianc",
+            "repo": "node-postgres",
+            "stars": 13192
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Go: pq",
+          "description": ", pgx, go-pg",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-03T19:36:19Z",
+            "owner": "lib",
+            "repo": "pq",
+            "stars": 9918
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Rust: rust-postgresql",
+          "description": ", pgx, wtx",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-07-27T10:57:11Z",
+            "owner": "rust-postgres",
+            "repo": "rust-postgres",
+            "stars": 3984
+          }
+        },
+        {
+          "node_type": "item",
+          "title": ".Net/.Net Core: Npgsql",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C#",
+            "last_commit": "2026-08-12T12:36:57Z",
+            "owner": "npgsql",
+            "repo": "npgsql",
+            "stars": 3722
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "TypeScript: zapatos",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2025-09-19T08:59:31Z",
+            "owner": "jawj",
+            "repo": "zapatos",
+            "stars": 1402
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Elixir: postgrex",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Elixir",
+            "last_commit": "2026-08-07T12:06:52Z",
+            "owner": "elixir-ecto",
+            "repo": "postgrex",
+            "stars": 1213
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Ruby: pg",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-11T19:24:10Z",
+            "owner": "ged",
+            "repo": "ruby-pg",
+            "stars": 870
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Zig: pg.zig",
+          "description": ", qail-zig",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Zig",
+            "last_commit": "2026-08-06T00:57:24Z",
+            "owner": "karlseguin",
+            "repo": "pg.zig",
+            "stars": 591
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Common Lisp: Postmodern",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Common Lisp",
+            "last_commit": "2025-07-24T22:36:05Z",
+            "owner": "marijnh",
+            "repo": "Postmodern",
+            "stars": 431
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "R: RPostgres",
+          "description": ", RPostgreSQL",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "R",
+            "last_commit": "2026-08-09T02:33:50Z",
+            "owner": "r-dbi",
+            "repo": "RPostgres",
+            "stars": 341
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Clojure: clj-postgresql",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Clojure",
+            "last_commit": "2025-03-07T08:23:57Z",
+            "owner": "remodoy",
+            "repo": "clj-postgresql",
+            "stars": 162
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Lua: luapgsql",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-02-07T13:44:01Z",
+            "owner": "arcapos",
+            "repo": "luapgsql",
+            "stars": 120
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "PHP: Pomm",
+          "description": ", pecl/pq",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2025-09-04T12:45:46Z",
+            "owner": "m6w6",
+            "repo": "ext-pq",
+            "stars": 41
+          }
+        }
+      ],
+      "title": "Language bindings"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "CloudNativePG operator",
+          "description": "A comprehensive platform designed to seamlessly manage PostgreSQL databases within Kubernetes environments.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T03:55:29Z",
+            "owner": "cloudnative-pg",
+            "repo": "cloudnative-pg",
+            "stars": 9140
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Zalando Operator",
+          "description": "Creates and manages PostgreSQL clusters running in Kubernetes.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-12T14:25:46Z",
+            "owner": "zalando",
+            "repo": "postgres-operator",
+            "stars": 5223
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Crunchy Operator",
+          "description": "Production PostgreSQL for Kubernetes, from high availability Postgres clusters to full-scale database-as-a-service.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T00:26:21Z",
+            "owner": "CrunchyData",
+            "repo": "postgres-operator",
+            "stars": 4437
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "StackGres Operator",
+          "description": "Full Stack PostgreSQL on Kubernetes.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Java",
+            "last_commit": "2026-08-13T13:40:46Z",
+            "owner": "ongres",
+            "repo": "stackgres",
+            "stars": 1426
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Kubegres Operator",
+          "description": "Kubegres is a Kubernetes operator allowing to deploy one or many clusters of PostgreSql instances and manage databases replication, failover and backup.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2025-01-04T14:29:28Z",
+            "owner": "reactive-tech",
+            "repo": "kubegres",
+            "stars": 1350
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Percona PostgreSQL Operator",
+          "description": "Percona Operator for PostgreSQL based on Crunchy Data operator.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T19:52:26Z",
+            "owner": "percona",
+            "repo": "percona-postgresql-operator",
+            "stars": 381
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Percona Everest Operator",
+          "description": "Everest Operator is a Kubernetes Operator responsible for managing the lifecycle of MySQL, MongoDB, and PostgreSQL databases. It leverages Percona's Kubernetes Operators for MySQL, MongoDB, and PostgreSQL under the hood but provides a unified API and a single pane of glass for managing all three database types.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-09T06:30:18Z",
+            "owner": "openeverest",
+            "repo": "openeverest-operator",
+            "stars": 42
+          }
+        }
+      ],
+      "title": "Kubernetes"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Resources"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "pg-utils",
+          "description": "Useful DBA tools by Data Egret",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2026-06-29T11:01:18Z",
+            "owner": "dataegret",
+            "repo": "pg-utils",
+            "stars": 1218
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "postgresDBSamples",
+          "description": "A collection of sample postgres schemas",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "PLpgSQL",
+            "last_commit": "2023-09-20T14:15:44Z",
+            "owner": "morenoh149",
+            "repo": "postgresDBSamples",
+            "stars": 552
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pagila",
+          "description": "Pagila, Postgres Sample Database",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "PLpgSQL",
+            "last_commit": "2026-03-26T17:52:33Z",
+            "owner": "xzilla",
+            "repo": "pagila",
+            "stars": 78
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SQL Syntax Cheat Sheet",
+          "description": "Comprehensive SQL syntax reference covering window functions, CTEs, and PostgreSQL-specific syntax (UPSERT, JSON queries, array operations).",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2026-03-09T15:25:34Z",
+            "owner": "mergisi",
+            "repo": "sql-syntax-cheat-sheet",
+            "stars": 52
+          }
+        }
+      ],
+      "title": "Tutorials"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-08-14T04:58:24.439Z",
+    "original_repository": "dhamaniasad/awesome-postgres",
+    "original_repository_sha": "ef88d7b7b11e980c472e26e4c8562b5bb4473086",
+    "enhanced_repository": "enhansome/enhansome-postgres",
+    "enhanced_repository_description": null,
+    "title": "Awesome Postgres with stars"
+  }
+}
