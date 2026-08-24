@@ -12,10 +12,10 @@
             "archived": false,
             "id": 38744670,
             "language": "Python",
-            "last_commit": "2026-08-20T12:58:12Z",
+            "last_commit": "2026-08-24T12:13:18Z",
             "owner": "patroni",
             "repo": "patroni",
-            "stars": 8677
+            "stars": 8678
           }
         },
         {
@@ -42,10 +42,10 @@
             "archived": false,
             "id": 190206784,
             "language": "TypeScript",
-            "last_commit": "2026-08-24T02:51:27Z",
+            "last_commit": "2026-08-24T07:59:48Z",
             "owner": "autobase-tech",
             "repo": "autobase",
-            "stars": 4343
+            "stars": 4344
           }
         },
         {
@@ -87,7 +87,7 @@
             "archived": false,
             "id": 583373845,
             "language": "C",
-            "last_commit": "2026-08-23T17:00:39Z",
+            "last_commit": "2026-08-24T13:36:34Z",
             "owner": "pgEdge",
             "repo": "spock",
             "stars": 744
@@ -177,7 +177,7 @@
             "archived": false,
             "id": 1102562115,
             "language": "C",
-            "last_commit": "2026-08-23T16:24:08Z",
+            "last_commit": "2026-08-24T09:08:49Z",
             "owner": "krylosov-aa",
             "repo": "pg-status",
             "stars": 81
@@ -198,7 +198,7 @@
             "archived": false,
             "id": 95143992,
             "language": "Go",
-            "last_commit": "2026-08-21T18:02:35Z",
+            "last_commit": "2026-08-24T13:30:35Z",
             "owner": "wal-g",
             "repo": "wal-g",
             "stars": 4223
@@ -369,10 +369,10 @@
             "archived": false,
             "id": 560299175,
             "language": "TypeScript",
-            "last_commit": "2026-08-24T03:55:01Z",
+            "last_commit": "2026-08-24T09:49:59Z",
             "owner": "teableio",
             "repo": "teable",
-            "stars": 21702
+            "stars": 21704
           }
         },
         {
@@ -387,7 +387,7 @@
             "last_commit": "2026-07-26T22:30:33Z",
             "owner": "sosedoff",
             "repo": "pgweb",
-            "stars": 9486
+            "stars": 9487
           }
         },
         {
@@ -414,7 +414,7 @@
             "archived": false,
             "id": 535584328,
             "language": "PLpgSQL",
-            "last_commit": "2026-08-19T15:12:31Z",
+            "last_commit": "2026-08-24T11:29:22Z",
             "owner": "commandprompt",
             "repo": "Audax-Data-Manager",
             "stars": 1032
@@ -468,7 +468,7 @@
             "last_commit": "2026-08-18T05:17:30Z",
             "owner": "dbcli",
             "repo": "pgcli",
-            "stars": 13362
+            "stars": 13364
           }
         },
         {
@@ -483,7 +483,7 @@
             "last_commit": "2026-08-02T09:01:02Z",
             "owner": "ariga",
             "repo": "atlas",
-            "stars": 8674
+            "stars": 8675
           }
         },
         {
@@ -513,7 +513,7 @@
             "last_commit": "2026-08-06T09:59:31Z",
             "owner": "stripe",
             "repo": "pg-schema-diff",
-            "stars": 873
+            "stars": 874
           }
         },
         {
@@ -528,7 +528,7 @@
             "last_commit": "2023-01-11T02:40:07Z",
             "owner": "sastraxi",
             "repo": "pgsh",
-            "stars": 647
+            "stars": 648
           }
         },
         {
@@ -555,7 +555,7 @@
             "archived": false,
             "id": 1123541397,
             "language": "Rust",
-            "last_commit": "2026-08-24T03:59:25Z",
+            "last_commit": "2026-08-24T13:50:29Z",
             "owner": "riii111",
             "repo": "sabiql",
             "stars": 255
@@ -614,6 +614,48 @@
       "items": [
         {
           "node_type": "item",
+          "title": "Apache Cloudberry",
+          "description": "And MPP PostgreSQL fork. Open source alternative to Greenplum Database.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 644742603,
+            "language": "C",
+            "last_commit": "2026-08-24T09:37:11Z",
+            "owner": "apache",
+            "repo": "cloudberry",
+            "stars": 1373
+          }
+        }
+      ],
+      "title": "Server"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Acra",
+          "description": "SQL database security suite: proxy for data protection with transparent \"on the fly\" data encryption, SQL firewall (SQL injections prevention), intrusion detection system.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 73724173,
+            "language": "Go",
+            "last_commit": "2026-04-23T00:16:58Z",
+            "owner": "cossacklabs",
+            "repo": "acra",
+            "stars": 1491
+          }
+        }
+      ],
+      "title": "Security"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "node_type": "item",
           "title": "coroot",
           "description": "Coroot is an open-source APM & Observability tool, a DataDog and NewRelic alternative. Powered by eBPF for rapid insights into system performance.",
           "children": [],
@@ -636,10 +678,10 @@
             "archived": false,
             "id": 41317079,
             "language": "Go",
-            "last_commit": "2026-08-22T20:42:37Z",
+            "last_commit": "2026-08-24T13:30:06Z",
             "owner": "prometheus-community",
             "repo": "postgres_exporter",
-            "stars": 3598
+            "stars": 3599
           }
         },
         {
@@ -681,7 +723,7 @@
             "archived": false,
             "id": 56446422,
             "language": "Go",
-            "last_commit": "2026-08-24T02:15:24Z",
+            "last_commit": "2026-08-24T13:33:04Z",
             "owner": "percona",
             "repo": "pmm",
             "stars": 1090
@@ -822,10 +864,10 @@
             "archived": false,
             "id": 50874442,
             "language": "C",
-            "last_commit": "2026-08-23T11:16:43Z",
+            "last_commit": "2026-08-24T11:13:38Z",
             "owner": "citusdata",
             "repo": "citus",
-            "stars": 12721
+            "stars": 12722
           }
         },
         {
@@ -837,10 +879,10 @@
             "archived": false,
             "id": 660776503,
             "language": "Rust",
-            "last_commit": "2026-08-24T04:01:49Z",
+            "last_commit": "2026-08-24T09:45:57Z",
             "owner": "paradedb",
             "repo": "paradedb",
-            "stars": 9182
+            "stars": 9186
           }
         },
         {
@@ -852,10 +894,10 @@
             "archived": false,
             "id": 660776503,
             "language": "Rust",
-            "last_commit": "2026-08-24T04:01:49Z",
+            "last_commit": "2026-08-24T09:45:57Z",
             "owner": "paradedb",
             "repo": "paradedb",
-            "stars": 9182
+            "stars": 9186
           }
         },
         {
@@ -870,7 +912,7 @@
             "last_commit": "2026-08-21T00:06:09Z",
             "owner": "apache",
             "repo": "age",
-            "stars": 4773
+            "stars": 4776
           }
         },
         {
@@ -1032,7 +1074,7 @@
             "archived": false,
             "id": 222681029,
             "language": "Perl",
-            "last_commit": "2026-08-21T14:26:14Z",
+            "last_commit": "2026-08-24T13:35:06Z",
             "owner": "percona",
             "repo": "pg_stat_monitor",
             "stars": 587
@@ -1128,10 +1170,10 @@
             "archived": false,
             "id": 716228772,
             "language": "Go",
-            "last_commit": "2026-08-23T23:10:30Z",
+            "last_commit": "2026-08-24T05:10:40Z",
             "owner": "riverqueue",
             "repo": "river",
-            "stars": 5599
+            "stars": 5600
           }
         },
         {
@@ -1161,7 +1203,7 @@
             "last_commit": "2026-08-24T01:24:09Z",
             "owner": "timgit",
             "repo": "pg-boss",
-            "stars": 3884
+            "stars": 3888
           }
         },
         {
@@ -1272,7 +1314,7 @@
             "last_commit": "2026-08-03T16:24:16Z",
             "owner": "timescale",
             "repo": "timescaledb-tune",
-            "stars": 500
+            "stars": 502
           }
         },
         {
@@ -1368,7 +1410,7 @@
             "last_commit": "2026-08-23T17:26:42Z",
             "owner": "PostgREST",
             "repo": "postgrest",
-            "stars": 27620
+            "stars": 27623
           }
         },
         {
@@ -1518,7 +1560,7 @@
             "last_commit": "2024-02-21T13:30:05Z",
             "owner": "jarulraj",
             "repo": "sqlcheck",
-            "stars": 2521
+            "stars": 2520
           }
         },
         {
@@ -1575,7 +1617,7 @@
             "archived": false,
             "id": 162420527,
             "language": "Go",
-            "last_commit": "2026-08-21T11:38:29Z",
+            "last_commit": "2026-08-24T13:25:24Z",
             "owner": "cybertec-postgresql",
             "repo": "pg_timetable",
             "stars": 1395
@@ -1815,7 +1857,7 @@
             "archived": false,
             "id": 94523624,
             "language": "Go",
-            "last_commit": "2026-07-22T08:50:29Z",
+            "last_commit": "2026-08-24T08:11:22Z",
             "owner": "dalibo",
             "repo": "ldap2pg",
             "stars": 235
@@ -1860,7 +1902,7 @@
             "archived": false,
             "id": 1106385392,
             "language": "Rust",
-            "last_commit": "2026-08-17T13:06:37Z",
+            "last_commit": "2026-08-24T13:08:39Z",
             "owner": "ayarotsky",
             "repo": "diesel-guard",
             "stars": 120
@@ -1950,7 +1992,7 @@
             "archived": false,
             "id": 1120152097,
             "language": "Rust",
-            "last_commit": "2026-08-23T23:25:56Z",
+            "last_commit": "2026-08-24T10:14:55Z",
             "owner": "qail-io",
             "repo": "qail",
             "stars": 35
@@ -2079,7 +2121,7 @@
             "last_commit": "2026-08-18T21:56:16Z",
             "owner": "npgsql",
             "repo": "npgsql",
-            "stars": 3720
+            "stars": 3721
           }
         },
         {
@@ -2232,10 +2274,10 @@
             "archived": false,
             "id": 468311851,
             "language": "Go",
-            "last_commit": "2026-08-23T22:11:05Z",
+            "last_commit": "2026-08-24T12:57:32Z",
             "owner": "cloudnative-pg",
             "repo": "cloudnative-pg",
-            "stars": 9191
+            "stars": 9196
           }
         },
         {
@@ -2307,7 +2349,7 @@
             "archived": false,
             "id": 344485792,
             "language": "Go",
-            "last_commit": "2026-08-22T16:37:33Z",
+            "last_commit": "2026-08-24T12:02:54Z",
             "owner": "percona",
             "repo": "percona-postgresql-operator",
             "stars": 381
@@ -2400,13 +2442,35 @@
           "description": null,
           "node_type": "group",
           "title": "Tutorials"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Digoal's PostgreSQL and Technical blog(Chinese Language)",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 40081991,
+                "language": "HTML",
+                "last_commit": "2026-08-24T07:52:07Z",
+                "owner": "digoal",
+                "repo": "blog",
+                "stars": 8560
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Blogs"
         }
       ],
       "title": "Resources"
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T04:01:51.801Z",
+    "last_updated": "2026-08-24T13:50:47.805Z",
     "original_repository": "dhamaniasad/awesome-postgres",
     "original_repository_id": 40072159,
     "original_repository_sha": "ef88d7b7b11e980c472e26e4c8562b5bb4473086",
