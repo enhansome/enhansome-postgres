@@ -10,12 +10,27 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A template for PostgreSQL High Availability with Etcd, Consul, ZooKeeper, or Kubernetes",
+            "homepage": null,
             "id": 38744670,
             "language": "Python",
+            "license": "MIT",
             "last_commit": "2026-08-27T13:58:41Z",
+            "open_issues": 62,
             "owner": "patroni",
             "repo": "patroni",
-            "stars": 8687
+            "stars": 8688,
+            "topics": [
+              "consul",
+              "etcd",
+              "failover",
+              "haproxy",
+              "high-availability",
+              "kubernetes",
+              "postgresql",
+              "raft",
+              "zookeeper"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -26,12 +41,31 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "PostgreSQL cloud native High Availability and more.",
+            "homepage": "https://talk.stolon.io",
             "id": 43884372,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2024-07-08T16:32:33Z",
+            "open_issues": 153,
             "owner": "sorintlab",
             "repo": "stolon",
-            "stars": 4827
+            "stars": 4827,
+            "topics": [
+              "cloud-native",
+              "consul",
+              "data-consistency",
+              "declarative-config",
+              "disaster-recovery",
+              "docker",
+              "etcd",
+              "golang",
+              "high-availability",
+              "kubernetes",
+              "postgresql",
+              "standby-cluster",
+              "synchronous-replication"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -42,12 +76,29 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Automated database platform for PostgreSQL® - Your own DBaaS.",
+            "homepage": "https://autobase.tech",
             "id": 190206784,
             "language": "TypeScript",
-            "last_commit": "2026-08-28T10:48:53Z",
+            "license": "MIT",
+            "last_commit": "2026-08-29T01:32:42Z",
+            "open_issues": 26,
             "owner": "autobase-tech",
             "repo": "autobase",
-            "stars": 4348
+            "stars": 4356,
+            "topics": [
+              "auto-failover",
+              "autobase",
+              "automation",
+              "cluster",
+              "database",
+              "dbaas",
+              "high-availibility",
+              "patroni",
+              "postgres",
+              "postgresql",
+              "self-hosted"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -58,12 +109,27 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A lightweight replication manager for PostgreSQL (Postgres)",
+            "homepage": "https://repmgr.org/",
             "id": 2180048,
             "language": "C",
+            "license": "NOASSERTION",
             "last_commit": "2026-03-28T16:04:11Z",
+            "open_issues": 138,
             "owner": "EnterpriseDB",
             "repo": "repmgr",
-            "stars": 1708
+            "stars": 1708,
+            "topics": [
+              "autofailover",
+              "cluster",
+              "failover",
+              "ha",
+              "postgres",
+              "postgresql",
+              "replication",
+              "replication-manager",
+              "repmgr"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -74,12 +140,23 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Postgres extension and service for automated failover and high-availability",
+            "homepage": null,
             "id": 184734634,
             "language": "C",
+            "license": "NOASSERTION",
             "last_commit": "2026-08-17T15:38:40Z",
+            "open_issues": 106,
             "owner": "hapostgres",
             "repo": "pg_auto_failover",
-            "stars": 1381
+            "stars": 1382,
+            "topics": [
+              "auto-failover",
+              "high-availability",
+              "postgres",
+              "postgresql",
+              "postgresql-extension"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -90,12 +167,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Logical multi-master PostgreSQL replication",
+            "homepage": "https://www.pgedge.com/get-started/",
             "id": 583373845,
             "language": "C",
-            "last_commit": "2026-08-28T14:59:02Z",
+            "license": "NOASSERTION",
+            "last_commit": "2026-08-29T00:47:38Z",
+            "open_issues": 34,
             "owner": "pgEdge",
             "repo": "spock",
-            "stars": 744
+            "stars": 744,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -106,12 +188,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Bi-Directional Multi-Master Replication (BDR) for PostgreSQL, deprecated, please visit 2ndQuadrant website for latest BDR3",
+            "homepage": "https://2ndQuadrant.com/BDR/",
             "id": 31722200,
             "language": "C",
+            "license": null,
             "last_commit": "2020-02-20T04:05:19Z",
+            "open_issues": 113,
             "owner": "2ndQuadrant",
             "repo": "bdr",
-            "stars": 359
+            "stars": 359,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -122,12 +209,25 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "PostgreSQL Automatic Failover: High-Availibility for Postgres, based on Pacemaker and Corosync.",
+            "homepage": "http://clusterlabs.github.io/PAF/",
             "id": 51014260,
             "language": "Perl",
+            "license": "NOASSERTION",
             "last_commit": "2024-06-13T10:03:18Z",
+            "open_issues": 18,
             "owner": "ClusterLabs",
             "repo": "PAF",
-            "stars": 350
+            "stars": 350,
+            "topics": [
+              "failover",
+              "high-availability",
+              "pacemaker",
+              "paf",
+              "postgres",
+              "postgresql",
+              "resource-agent"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -138,12 +238,17 @@
           "children": [],
           "repo_info": {
             "archived": true,
+            "description": "Obsolete, see https://github.com/pgq/ for maintained code.",
+            "homepage": "https://github.com/pgq/",
             "id": 966099,
             "language": "Python",
+            "license": "NOASSERTION",
             "last_commit": "2017-06-28T14:24:24Z",
+            "open_issues": 29,
             "owner": "pgq",
             "repo": "skytools-legacy",
-            "stars": 249
+            "stars": 249,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -154,12 +259,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "PostgreSQL replication monitoring and failover daemon",
+            "homepage": null,
             "id": 28002343,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2026-03-02T14:04:45Z",
+            "open_issues": 12,
             "owner": "Aiven-Open",
             "repo": "pglookout",
-            "stars": 191
+            "stars": 191,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -170,12 +280,38 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Cloud-native continuous backup for PostgreSQL - WAL/base-backup streaming, compression, encryption, retention, and monitoring in a single binary.",
+            "homepage": "https://pgrwl.github.io",
             "id": 988417687,
             "language": "Go",
+            "license": "MIT",
             "last_commit": "2026-08-13T21:14:39Z",
+            "open_issues": 65,
             "owner": "pgrwl",
             "repo": "pgrwl",
-            "stars": 181
+            "stars": 181,
+            "topics": [
+              "archiving",
+              "aws",
+              "aws-s3",
+              "backup",
+              "backup-tool",
+              "cloud",
+              "cloud-native",
+              "contributions-welcome",
+              "database",
+              "database-management",
+              "devops",
+              "disaster-recovery",
+              "go",
+              "golang",
+              "k8s",
+              "kubernetes",
+              "postgres",
+              "postgresql",
+              "recovery",
+              "s3"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -186,12 +322,35 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A microservice (sidecar) that helps instantly determine the status of your PostgreSQL hosts including whether they are alive, which one is the master, which ones are replicas, and how far each replica is lagging behind the master.",
+            "homepage": null,
             "id": 1102562115,
             "language": "C",
+            "license": "MIT",
             "last_commit": "2026-08-24T09:08:49Z",
+            "open_issues": 6,
             "owner": "krylosov-aa",
             "repo": "pg-status",
-            "stars": 81
+            "stars": 81,
+            "topics": [
+              "c",
+              "docker",
+              "high-availability",
+              "high-load",
+              "http-api",
+              "lightweight",
+              "master-replica",
+              "microservice",
+              "monitoring",
+              "observability",
+              "performance",
+              "pg",
+              "postgresql",
+              "replication",
+              "service-discovery",
+              "sidecar",
+              "sql"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         }
@@ -208,12 +367,36 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Archival and Restoration for databases in the Cloud",
+            "homepage": null,
             "id": 95143992,
             "language": "Go",
+            "license": "NOASSERTION",
             "last_commit": "2026-08-28T11:25:45Z",
+            "open_issues": 307,
             "owner": "wal-g",
             "repo": "wal-g",
-            "stars": 4233
+            "stars": 4233,
+            "topics": [
+              "archiving",
+              "aws",
+              "aws-s3",
+              "azure",
+              "azure-storage",
+              "backup",
+              "cloud",
+              "go",
+              "golang",
+              "greenplum",
+              "mariadb",
+              "mongodb",
+              "mysql",
+              "postgres",
+              "postgresql",
+              "redis",
+              "s3",
+              "sqlserver"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -224,12 +407,32 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Continuous Archiving for Postgres",
+            "homepage": null,
             "id": 7695747,
             "language": "Python",
+            "license": "BSD-3-Clause",
             "last_commit": "2023-12-20T06:01:14Z",
+            "open_issues": 94,
             "owner": "wal-e",
             "repo": "wal-e",
-            "stars": 3464
+            "stars": 3464,
+            "topics": [
+              "archiving",
+              "azure-blob",
+              "backup",
+              "backups",
+              "blob-store",
+              "google-cloud-storage",
+              "openstack-swift",
+              "pitr",
+              "postgres",
+              "postgresql",
+              "python",
+              "recovery",
+              "replication",
+              "s3"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -240,12 +443,25 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "🐘 Effortless PostgreSQL backups with a user-friendly web interface! 🌐💾",
+            "homepage": null,
             "id": 831205985,
             "language": "Go",
+            "license": "AGPL-3.0",
             "last_commit": "2026-08-28T06:40:54Z",
+            "open_issues": 99,
             "owner": "eduardolat",
             "repo": "pgbackweb",
-            "stars": 2621
+            "stars": 2622,
+            "topics": [
+              "backup",
+              "backups",
+              "database",
+              "postgres",
+              "postgresql",
+              "restore",
+              "s3"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -256,12 +472,23 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "PostgreSQL® backup and restore service",
+            "homepage": "http://aiven-open.github.io/pghoard/",
             "id": 37595806,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-20T20:58:32Z",
+            "open_issues": 53,
             "owner": "Aiven-Open",
             "repo": "pghoard",
-            "stars": 1421
+            "stars": 1421,
+            "topics": [
+              "aiven",
+              "backup",
+              "cloud-object-storage",
+              "postgresql",
+              "restore"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -272,12 +499,25 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Backup and recovery manager for PostgreSQL",
+            "homepage": "https://postgrespro.github.io/pg_probackup/",
             "id": 51589487,
             "language": "Python",
+            "license": "NOASSERTION",
             "last_commit": "2026-07-12T20:18:06Z",
+            "open_issues": 188,
             "owner": "postgrespro",
             "repo": "pg_probackup",
-            "stars": 799
+            "stars": 799,
+            "topics": [
+              "archiving",
+              "backup",
+              "incremental-backups",
+              "postgresql",
+              "recovery",
+              "restore",
+              "wall"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -288,12 +528,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Simple backup tool for PostgreSQL",
+            "homepage": null,
             "id": 17669793,
             "language": "Go",
+            "license": "NOASSERTION",
             "last_commit": "2026-06-02T11:11:05Z",
+            "open_issues": 12,
             "owner": "orgrim",
             "repo": "pg_back",
-            "stars": 565
+            "stars": 565,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -304,12 +549,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Advanced WAL File Management Tools for PostgreSQL",
+            "homepage": "http://www.depesz.com/tag/omnipitr/",
             "id": 1743839,
             "language": "Perl",
+            "license": null,
             "last_commit": "2019-06-25T09:11:08Z",
+            "open_issues": 3,
             "owner": "omniti-labs",
             "repo": "omnipitr",
-            "stars": 179
+            "stars": 179,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -320,12 +570,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Small tool to create your postgresql backups on regular bases and upload them to S3  ",
+            "homepage": null,
             "id": 992576608,
             "language": "PLpgSQL",
+            "license": "MIT",
             "last_commit": "2025-05-30T17:45:56Z",
+            "open_issues": 0,
             "owner": "Saicheg",
             "repo": "pg-backups-to-s3",
-            "stars": 19
+            "stars": 19,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -336,12 +591,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": null,
+            "homepage": null,
             "id": 869146123,
             "language": "Shell",
+            "license": "MPL-2.0",
             "last_commit": "2024-11-08T13:30:34Z",
+            "open_issues": 0,
             "owner": "Musab520",
             "repo": "pgbackup-sidecar",
-            "stars": 5
+            "stars": 5,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -352,12 +612,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A handy Docker container to periodically backup PostgreSQL to Alibaba Cloud Object Storage Service (OSS)",
+            "homepage": null,
             "id": 884043225,
             "language": "Shell",
+            "license": "MIT",
             "last_commit": "2025-05-12T09:21:08Z",
+            "open_issues": 0,
             "owner": "isaced",
             "repo": "postgres-backup-oss",
-            "stars": 1
+            "stars": 1,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         }
@@ -374,12 +639,37 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Make Your Company Data Driven. Connect to any data source, easily visualize, dashboard and share your data.",
+            "homepage": "http://redash.io/",
             "id": 13926404,
             "language": "Python",
+            "license": "BSD-2-Clause",
             "last_commit": "2026-08-18T16:14:11Z",
+            "open_issues": 802,
             "owner": "getredash",
             "repo": "redash",
-            "stars": 28766
+            "stars": 28766,
+            "topics": [
+              "analytics",
+              "athena",
+              "bi",
+              "bigquery",
+              "business-intelligence",
+              "dashboard",
+              "databricks",
+              "hacktoberfest",
+              "javascript",
+              "mariadb",
+              "mysql",
+              "postgresql",
+              "python",
+              "redash",
+              "redshift",
+              "snowflake",
+              "spark",
+              "spark-sql",
+              "visualization"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -390,12 +680,30 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "✨ AI Spreadsheet for Business",
+            "homepage": "https://teable.ai",
             "id": 560299175,
             "language": "TypeScript",
+            "license": "NOASSERTION",
             "last_commit": "2026-08-28T08:32:40Z",
+            "open_issues": 127,
             "owner": "teableio",
             "repo": "teable",
-            "stars": 21730
+            "stars": 21732,
+            "topics": [
+              "ai-agent",
+              "airtable",
+              "airtable-alternative",
+              "app-builder",
+              "database",
+              "internal-tool",
+              "low-code",
+              "no-code",
+              "postgres",
+              "postgresql",
+              "sandbox",
+              "spreadsheet"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -406,12 +714,22 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Cross-platform client for PostgreSQL databases",
+            "homepage": "https://sosedoff.github.io/pgweb",
             "id": 24968828,
             "language": "Go",
+            "license": "MIT",
             "last_commit": "2026-07-26T22:30:33Z",
+            "open_issues": 55,
             "owner": "sosedoff",
             "repo": "pgweb",
-            "stars": 9488
+            "stars": 9488,
+            "topics": [
+              "cross-platform",
+              "golang",
+              "pgweb",
+              "postgresql"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -422,12 +740,25 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Open source PostgreSQL GUI client for macOS, Linux and Windows",
+            "homepage": null,
             "id": 14712750,
             "language": "JavaScript",
+            "license": "MIT",
             "last_commit": "2025-06-30T21:50:07Z",
+            "open_issues": 53,
             "owner": "Paxa",
             "repo": "postbird",
-            "stars": 1637
+            "stars": 1637,
+            "topics": [
+              "desktop-app",
+              "electron-app",
+              "javascript",
+              "linux",
+              "macos",
+              "postgresql",
+              "windows"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -438,12 +769,34 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Web tool for database management",
+            "homepage": "https://www.commandprompt.com",
             "id": 535584328,
             "language": "PLpgSQL",
+            "license": "NOASSERTION",
             "last_commit": "2026-08-25T16:24:40Z",
+            "open_issues": 22,
             "owner": "commandprompt",
             "repo": "Audax-Data-Manager",
-            "stars": 1033
+            "stars": 1033,
+            "topics": [
+              "autocomplete",
+              "database",
+              "database-backup",
+              "database-client",
+              "database-management",
+              "dba",
+              "django-application",
+              "erdiagram",
+              "mariadb",
+              "mysql",
+              "nwjs-application",
+              "postgres",
+              "postgres-config",
+              "postgresql",
+              "sqlite3",
+              "vuejs-application"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -454,12 +807,19 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "the premier web-based administration tool for postgresql",
+            "homepage": "https://github.com/phppgadmin/phppgadmin",
             "id": 1359920,
             "language": "PHP",
+            "license": "NOASSERTION",
             "last_commit": "2024-07-30T12:40:06Z",
+            "open_issues": 74,
             "owner": "phppgadmin",
             "repo": "phppgadmin",
-            "stars": 844
+            "stars": 844,
+            "topics": [
+              "hacktoberfest"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -470,12 +830,25 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "PostgreSQL Remote Control",
+            "homepage": "https://labs.dalibo.com/temboard",
             "id": 68793814,
             "language": "Python",
+            "license": "NOASSERTION",
             "last_commit": "2026-08-28T12:30:46Z",
+            "open_issues": 89,
             "owner": "dalibo",
             "repo": "temboard",
-            "stars": 769
+            "stars": 769,
+            "topics": [
+              "administration",
+              "dashboard",
+              "database",
+              "management",
+              "monitoring",
+              "postgresql",
+              "rdbms"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         }
@@ -492,12 +865,23 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Postgres CLI with autocompletion and syntax highlighting",
+            "homepage": "http://pgcli.com",
             "id": 25126616,
             "language": "Python",
+            "license": "BSD-3-Clause",
             "last_commit": "2026-08-27T10:21:06Z",
+            "open_issues": 42,
             "owner": "dbcli",
             "repo": "pgcli",
-            "stars": 13370
+            "stars": 13370,
+            "topics": [
+              "database",
+              "postgres",
+              "postgresql",
+              "psql",
+              "python"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -508,12 +892,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Declarative schema migrations with schema-as-code workflows",
+            "homepage": "https://atlasgo.io",
             "id": 363232643,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-28T12:02:55Z",
+            "open_issues": 271,
             "owner": "ariga",
             "repo": "atlas",
-            "stars": 8689
+            "stars": 8689,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -524,12 +913,30 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Database documentation built easy",
+            "homepage": "http://schemaspy.org",
             "id": 64106157,
             "language": "HTML",
+            "license": "LGPL-3.0",
             "last_commit": "2026-03-05T20:31:40Z",
+            "open_issues": 302,
             "owner": "schemaspy",
             "repo": "schemaspy",
-            "stars": 3712
+            "stars": 3712,
+            "topics": [
+              "data-dictionary",
+              "database",
+              "database-diagrams",
+              "database-documentation",
+              "database-schemas",
+              "documentation",
+              "entity-relationship-diagram",
+              "er-diagram",
+              "java",
+              "reverse-engineering",
+              "schema",
+              "schemaspy"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -540,12 +947,22 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Go library for diffing Postgres schemas and generating SQL migrations",
+            "homepage": null,
             "id": 626497456,
             "language": "Go",
+            "license": "MIT",
             "last_commit": "2026-08-06T09:59:31Z",
+            "open_issues": 85,
             "owner": "stripe",
             "repo": "pg-schema-diff",
-            "stars": 876
+            "stars": 877,
+            "topics": [
+              "golang",
+              "postgres",
+              "postgres-schema",
+              "postgres-schema-diff"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -556,12 +973,23 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Branch your PostgreSQL Database like Git",
+            "homepage": "https://www.npmjs.com/package/pgsh",
             "id": 170973361,
             "language": "JavaScript",
+            "license": "MIT",
             "last_commit": "2023-01-11T02:40:07Z",
+            "open_issues": 34,
             "owner": "sastraxi",
             "repo": "pgsh",
-            "stars": 649
+            "stars": 649,
+            "topics": [
+              "dotenv",
+              "git",
+              "knex",
+              "postgresql",
+              "psql"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -572,12 +1000,23 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A CLI tool for managing and executing SQL queries across multiple databases. Written in Go, made beautiful with BubbleTea",
+            "homepage": "https://squix.live.eduardofuncao.com/",
             "id": 1071782362,
             "language": "Go",
+            "license": "MIT",
             "last_commit": "2026-08-27T17:57:40Z",
+            "open_issues": 12,
             "owner": "eduardofuncao",
             "repo": "squix",
-            "stars": 268
+            "stars": 268,
+            "topics": [
+              "cli",
+              "database",
+              "go",
+              "golang",
+              "sql"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -588,12 +1027,22 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A fast PostgreSQL and SQLite TUI written in Rust. driver-less, vim-first, with ER diagrams. No database drivers, no setup, just psql or sqlite3",
+            "homepage": null,
             "id": 1123541397,
             "language": "Rust",
+            "license": "MIT",
             "last_commit": "2026-08-27T15:30:00Z",
+            "open_issues": 7,
             "owner": "riii111",
             "repo": "sabiql",
-            "stars": 259
+            "stars": 260,
+            "topics": [
+              "postgresql",
+              "ratatui",
+              "rust",
+              "tui"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -604,12 +1053,25 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Run a query in psql and output the result as CSV.",
+            "homepage": null,
             "id": 41854441,
             "language": "Shell",
+            "license": "MIT",
             "last_commit": "2022-02-23T17:40:42Z",
+            "open_issues": 2,
             "owner": "fphilipe",
             "repo": "psql2csv",
-            "stars": 186
+            "stars": 186,
+            "topics": [
+              "cli",
+              "csv",
+              "homebrew",
+              "homebrew-formula",
+              "postgres",
+              "postgresql",
+              "psql"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -620,12 +1082,25 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Compare and analyze PostgreSQL EXPLAIN plans from the CLI",
+            "homepage": null,
             "id": 1147458609,
             "language": "Go",
+            "license": "MIT",
             "last_commit": "2026-08-04T21:28:48Z",
+            "open_issues": 0,
             "owner": "JacobArthurs",
             "repo": "pgplan",
-            "stars": 13
+            "stars": 13,
+            "topics": [
+              "cli",
+              "cobra",
+              "database",
+              "developer-tools",
+              "golang",
+              "postgresql",
+              "query-optimization"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -636,12 +1111,38 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "PostgreSQL migration linter. Blocks unsafe migrations before merge: 112 rules, the real Postgres parser, lock analysis, auto-fix. CLI, GitHub Action, MCP.",
+            "homepage": "https://migrationpilot.dev",
             "id": 1155939219,
             "language": "TypeScript",
+            "license": "MIT",
             "last_commit": "2026-08-12T19:46:24Z",
+            "open_issues": 0,
             "owner": "mickelsamuel",
             "repo": "migrationpilot",
-            "stars": 7
+            "stars": 7,
+            "topics": [
+              "ai",
+              "cli",
+              "database",
+              "ddl",
+              "developer-tools",
+              "devops",
+              "github-action",
+              "linter",
+              "mcp",
+              "migration",
+              "postgres",
+              "postgresql",
+              "pre-commit",
+              "safety",
+              "schema",
+              "sql",
+              "sql-linter",
+              "static-analysis",
+              "vscode-extension",
+              "zero-downtime"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         }
@@ -658,12 +1159,32 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "One advanced and mature open-source MPP (Massively Parallel Processing) database. Open source alternative to Greenplum Database.",
+            "homepage": "https://cloudberry.apache.org",
             "id": 644742603,
             "language": "C",
-            "last_commit": "2026-08-28T12:08:04Z",
+            "license": "Apache-2.0",
+            "last_commit": "2026-08-29T00:48:56Z",
+            "open_issues": 216,
             "owner": "apache",
             "repo": "cloudberry",
-            "stars": 1377
+            "stars": 1377,
+            "topics": [
+              "ai",
+              "big-data",
+              "c",
+              "cloudberry",
+              "data-analysis",
+              "data-warehouse",
+              "database",
+              "distributed-database",
+              "greenplum",
+              "mpp",
+              "olap",
+              "postgres",
+              "postgresql",
+              "sql"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         }
@@ -680,12 +1201,31 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Database security suite. Database proxy with field-level encryption, search through encrypted data, SQL injections prevention, intrusion detection, honeypots. Supports client-side and proxy-side (\"transparent\") encryption. SQL, NoSQL.",
+            "homepage": "https://www.cossacklabs.com/acra/",
             "id": 73724173,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-04-23T00:16:58Z",
+            "open_issues": 29,
             "owner": "cossacklabs",
             "repo": "acra",
-            "stars": 1491
+            "stars": 1491,
+            "topics": [
+              "crypto",
+              "cryptography",
+              "database-proxy",
+              "databases",
+              "django",
+              "encryption",
+              "encryption-server",
+              "golang",
+              "honeypot",
+              "intrusion-detection",
+              "php",
+              "python3",
+              "security"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         }
@@ -702,12 +1242,34 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Coroot is an open-source observability and APM tool with AI-powered Root Cause Analysis. It combines metrics, logs, traces, continuous profiling, and SLO-based alerting with predefined dashboards and inspections.",
+            "homepage": "https://coroot.com",
             "id": 527612250,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-27T21:50:45Z",
+            "open_issues": 117,
             "owner": "coroot",
             "repo": "coroot",
-            "stars": 7894
+            "stars": 7894,
+            "topics": [
+              "ai",
+              "alerting",
+              "apm",
+              "dashboard",
+              "database-monitoring",
+              "distributed-tracing",
+              "ebpf",
+              "metrics",
+              "microservice",
+              "monitoring",
+              "observability",
+              "prometheus",
+              "service-map",
+              "slo",
+              "sre",
+              "tracing"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -718,12 +1280,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A PostgreSQL metric exporter for Prometheus",
+            "homepage": null,
             "id": 41317079,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-26T02:38:07Z",
+            "open_issues": 243,
             "owner": "prometheus-community",
             "repo": "postgres_exporter",
-            "stars": 3604
+            "stars": 3604,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -734,12 +1301,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "The automatic indexer for Postgres",
+            "homepage": null,
             "id": 95328271,
             "language": "Ruby",
+            "license": "MIT",
             "last_commit": "2026-08-15T21:08:13Z",
+            "open_issues": 2,
             "owner": "ankane",
             "repo": "dexter",
-            "stars": 2092
+            "stars": 2092,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -750,12 +1322,29 @@
           "children": [],
           "repo_info": {
             "archived": true,
+            "description": "PostgreSQL metrics monitor/dashboard",
+            "homepage": null,
             "id": 77611341,
             "language": "PLpgSQL",
+            "license": "BSD-3-Clause",
             "last_commit": "2024-12-17T15:13:26Z",
+            "open_issues": 0,
             "owner": "cybertec-postgresql",
             "repo": "pgwatch2",
-            "stars": 1837
+            "stars": 1837,
+            "topics": [
+              "dashboard",
+              "docker-setup",
+              "grafana",
+              "metrics",
+              "metrics-gatherer",
+              "metrics-gathering-daemon",
+              "monitoring",
+              "pg-monitor",
+              "postgres",
+              "postgresql",
+              "postgresql-metrics-monitor"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -766,12 +1355,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Percona Monitoring and Management: an open source database monitoring, observability and management tool",
+            "homepage": "https://www.percona.com/software/database-tools/percona-monitoring-and-management",
             "id": 56446422,
             "language": "Go",
-            "last_commit": "2026-08-28T15:06:51Z",
+            "license": "AGPL-3.0",
+            "last_commit": "2026-08-28T20:40:41Z",
+            "open_issues": 226,
             "owner": "percona",
             "repo": "pmm",
-            "stars": 1093
+            "stars": 1093,
+            "topics": [
+              "database",
+              "database-management",
+              "hacktoberfest",
+              "monitoring",
+              "observability",
+              "pmm"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -782,12 +1383,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A Postgres Metrics Dashboard",
+            "homepage": null,
             "id": 47144448,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2020-09-04T00:23:01Z",
+            "open_issues": 15,
             "owner": "rach",
             "repo": "pome",
-            "stars": 1072
+            "stars": 1072,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -798,12 +1404,23 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Nagios check_postgres plugin for checking status of PostgreSQL databases",
+            "homepage": "http://bucardo.org/wiki/Check_postgres",
             "id": 196044,
             "language": "Perl",
+            "license": "NOASSERTION",
             "last_commit": "2025-01-02T02:31:47Z",
+            "open_issues": 103,
             "owner": "bucardo",
             "repo": "check_postgres",
-            "stars": 602
+            "stars": 602,
+            "topics": [
+              "hacktoberfest",
+              "monitoring",
+              "nagios",
+              "postgres",
+              "postgresql"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -814,12 +1431,19 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Get a detailed, real-time view of your PostgreSQL database and system metrics",
+            "homepage": "https://pypi.python.org/pypi/pg-view",
             "id": 11426126,
             "language": "Python",
+            "license": "NOASSERTION",
             "last_commit": "2023-03-25T12:24:34Z",
+            "open_issues": 28,
             "owner": "zalando",
             "repo": "pg_view",
-            "stars": 507
+            "stars": 507,
+            "topics": [
+              "monitoring"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -830,12 +1454,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Advanced PostgreSQL & Pgbouncer Metrics Exporter for Prometheus",
+            "homepage": "https://pigsty.io/docs/pg_exporter",
             "id": 226279197,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-09T06:50:32Z",
+            "open_issues": 9,
             "owner": "pgsty",
             "repo": "pg_exporter",
-            "stars": 362
+            "stars": 362,
+            "topics": [
+              "monitoring",
+              "pg-exporter",
+              "pgbouncer",
+              "postgres",
+              "prometheus",
+              "prometheus-exporter"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -846,12 +1482,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Active Session History for PostgreSQL — wait event sampling with zero bloat (pg_cron + PGQ-style partition rotation)",
+            "homepage": null,
             "id": 1155917602,
             "language": "PLpgSQL",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-23T21:15:21Z",
+            "open_issues": 54,
             "owner": "NikolayS",
             "repo": "pg_ash",
-            "stars": 244
+            "stars": 244,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -862,12 +1503,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Nagios remote agent",
+            "homepage": "http://opm.readthedocs.io/probes/check_pgactivity.html",
             "id": 23587233,
             "language": "Perl",
+            "license": "PostgreSQL",
             "last_commit": "2026-08-28T14:37:50Z",
+            "open_issues": 43,
             "owner": "OPMDG",
             "repo": "check_pgactivity",
-            "stars": 185
+            "stars": 185,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -878,12 +1524,22 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Monitor PostgreSQL with Zabbix",
+            "homepage": "http://cavaliercoder.com/libzbxpgsql/",
             "id": 30450165,
             "language": "C",
+            "license": "NOASSERTION",
             "last_commit": "2023-11-14T14:26:30Z",
+            "open_issues": 51,
             "owner": "zabbix-tools",
             "repo": "libzbxpgsql",
-            "stars": 156
+            "stars": 156,
+            "topics": [
+              "postgresql",
+              "postgresql-monitoring",
+              "zabbix",
+              "zabbix-loadable"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -894,12 +1550,23 @@
           "children": [],
           "repo_info": {
             "archived": true,
+            "description": "Instrumental System and Service Daemon",
+            "homepage": null,
             "id": 61829004,
             "language": "HTML",
+            "license": "MIT",
             "last_commit": "2018-09-17T20:30:24Z",
+            "open_issues": 8,
             "owner": "Instrumental",
             "repo": "instrumentald",
-            "stars": 15
+            "stars": 15,
+            "topics": [
+              "daemon",
+              "metrics",
+              "monitoring",
+              "service-metrics",
+              "system-monitor"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         }
@@ -916,12 +1583,30 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Distributed PostgreSQL as an extension",
+            "homepage": "https://www.citusdata.com",
             "id": 50874442,
             "language": "C",
+            "license": "AGPL-3.0",
             "last_commit": "2026-08-28T13:53:15Z",
+            "open_issues": 1063,
             "owner": "citusdata",
             "repo": "citus",
-            "stars": 12734
+            "stars": 12735,
+            "topics": [
+              "citus",
+              "citus-extension",
+              "database",
+              "database-cluster",
+              "distributed-database",
+              "multi-tenant",
+              "postgres",
+              "postgresql",
+              "relational-database",
+              "scale",
+              "sharding",
+              "sql"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -932,12 +1617,38 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "One Postgres for your application data, full-text search, vector retrieval, and aggregations. Home of the pg_search extension.",
+            "homepage": "https://paradedb.com",
             "id": 660776503,
             "language": "Rust",
-            "last_commit": "2026-08-28T13:57:54Z",
+            "license": "AGPL-3.0",
+            "last_commit": "2026-08-29T03:49:03Z",
+            "open_issues": 189,
             "owner": "paradedb",
             "repo": "paradedb",
-            "stars": 9206
+            "stars": 9206,
+            "topics": [
+              "aggregations",
+              "analytics",
+              "bm25",
+              "columnar-storage",
+              "distributed-search",
+              "full-text-search",
+              "htap",
+              "hybrid-search",
+              "mpp",
+              "olap",
+              "postgresql",
+              "postgresql-extension",
+              "real-time-analytics",
+              "rust",
+              "search-engine",
+              "semantic-search",
+              "similarity-search",
+              "sparse-vector",
+              "vector-database",
+              "vector-search"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -948,12 +1659,38 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "One Postgres for your application data, full-text search, vector retrieval, and aggregations. Home of the pg_search extension.",
+            "homepage": "https://paradedb.com",
             "id": 660776503,
             "language": "Rust",
-            "last_commit": "2026-08-28T13:57:54Z",
+            "license": "AGPL-3.0",
+            "last_commit": "2026-08-29T03:49:03Z",
+            "open_issues": 189,
             "owner": "paradedb",
             "repo": "paradedb",
-            "stars": 9206
+            "stars": 9206,
+            "topics": [
+              "aggregations",
+              "analytics",
+              "bm25",
+              "columnar-storage",
+              "distributed-search",
+              "full-text-search",
+              "htap",
+              "hybrid-search",
+              "mpp",
+              "olap",
+              "postgresql",
+              "postgresql-extension",
+              "real-time-analytics",
+              "rust",
+              "search-engine",
+              "semantic-search",
+              "similarity-search",
+              "sparse-vector",
+              "vector-database",
+              "vector-search"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -964,12 +1701,26 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Graph database optimized for fast analysis and real-time data processing. It is provided as an extension to PostgreSQL.",
+            "homepage": "https://age.apache.org",
             "id": 276293034,
             "language": "C",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-28T14:36:20Z",
+            "open_issues": 239,
             "owner": "apache",
             "repo": "age",
-            "stars": 4783
+            "stars": 4785,
+            "topics": [
+              "age-database",
+              "agensgraph",
+              "analytics",
+              "graph-database",
+              "graphdb",
+              "multi-model-dbms",
+              "postgresql",
+              "postgresql-extension"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -980,12 +1731,23 @@
           "children": [],
           "repo_info": {
             "archived": true,
+            "description": "Making Postgres and Elasticsearch work together like it's 2023",
+            "homepage": "https://www.zombodb.com/",
             "id": 39265047,
             "language": "PLpgSQL",
+            "license": "NOASSERTION",
             "last_commit": "2025-03-01T19:28:06Z",
+            "open_issues": 17,
             "owner": "zombodb",
             "repo": "zombodb",
-            "stars": 4719
+            "stars": 4719,
+            "topics": [
+              "elasticsearch",
+              "postgres",
+              "postgresql",
+              "sql",
+              "text-search"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -996,12 +1758,22 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Run periodic jobs in PostgreSQL",
+            "homepage": null,
             "id": 67372977,
             "language": "C",
+            "license": "PostgreSQL",
             "last_commit": "2026-07-21T09:26:36Z",
+            "open_issues": 135,
             "owner": "citusdata",
             "repo": "pg_cron",
-            "stars": 3875
+            "stars": 3875,
+            "topics": [
+              "cron",
+              "periodic-jobs",
+              "postgresql",
+              "scheduler"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1012,12 +1784,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Partition management extension for PostgreSQL",
+            "homepage": null,
             "id": 5682770,
             "language": "PLpgSQL",
+            "license": "NOASSERTION",
             "last_commit": "2026-08-21T20:48:55Z",
+            "open_issues": 50,
             "owner": "pgpartman",
             "repo": "pg_partman",
-            "stars": 2799
+            "stars": 2799,
+            "topics": [
+              "background-worker",
+              "partitioning",
+              "pg-partition-manager",
+              "plpgsql",
+              "postgresql",
+              "postgresql-extension"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1028,12 +1812,22 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Columnar storage extension for Postgres built as a foreign data wrapper. Check out https://github.com/citusdata/citus for a modernized columnar storage implementation built as a table access method.",
+            "homepage": null,
             "id": 18400513,
             "language": "C",
+            "license": "Apache-2.0",
             "last_commit": "2021-03-08T08:37:44Z",
+            "open_issues": 69,
             "owner": "citusdata",
             "repo": "cstore_fdw",
-            "stars": 1783
+            "stars": 1783,
+            "topics": [
+              "columnar-storage",
+              "columnar-store",
+              "compression",
+              "postgresql"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1044,12 +1838,25 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Hypothetical Indexes for PostgreSQL",
+            "homepage": "https://hypopg.readthedocs.io",
             "id": 37308208,
             "language": "C",
+            "license": "NOASSERTION",
             "last_commit": "2026-06-19T23:40:27Z",
+            "open_issues": 7,
             "owner": "HypoPG",
             "repo": "hypopg",
-            "stars": 1699
+            "stars": 1699,
+            "topics": [
+              "c",
+              "database",
+              "extension",
+              "hypothetical-indexes",
+              "index",
+              "indexing",
+              "postgresql"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1060,12 +1867,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Repository contains pgRouting library. Development branch is \"develop\", stable branch is \"master\"",
+            "homepage": "https://pgrouting.org",
             "id": 1050245,
             "language": "C++",
+            "license": "GPL-2.0",
             "last_commit": "2026-08-22T12:20:18Z",
+            "open_issues": 76,
             "owner": "pgRouting",
             "repo": "pgrouting",
-            "stars": 1426
+            "stars": 1426,
+            "topics": [
+              "network-analysis",
+              "osgeo",
+              "postgis",
+              "postgresql-extension",
+              "routing",
+              "spatial-analysis"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1076,12 +1895,29 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Logical Replication extension for PostgreSQL 17, 16, 15, 14, 13, 12, 11, 10, 9.6, 9.5, 9.4 (Postgres), providing much faster replication than Slony, Bucardo or Londiste, as well as cross-version upgrades.",
+            "homepage": "https://www.enterprisedb.com/docs/supported-open-source/pglogical2/",
             "id": 58486879,
             "language": "C",
+            "license": "NOASSERTION",
             "last_commit": "2026-07-28T18:10:14Z",
+            "open_issues": 190,
             "owner": "2ndQuadrant",
             "repo": "pglogical",
-            "stars": 1238
+            "stars": 1238,
+            "topics": [
+              "cdc",
+              "data-transformation",
+              "data-transport",
+              "database-replication",
+              "etl",
+              "logical-decoding",
+              "postgresql",
+              "publish-subscribe",
+              "replication",
+              "subscription",
+              "zero-downtime"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1092,12 +1928,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "ATTENTION: pg_shard is superseded by Citus, its more powerful replacement",
+            "homepage": "https://github.com/citusdata/citus",
             "id": 27522888,
             "language": "C",
+            "license": "LGPL-3.0",
             "last_commit": "2016-08-03T05:17:18Z",
+            "open_issues": 38,
             "owner": "citusdata",
             "repo": "pg_shard",
-            "stars": 1062
+            "stars": 1062,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1108,12 +1949,28 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "plpgsql_check is a linter tool (does source code static analyze) for the PostgreSQL language plpgsql (the native language for PostgreSQL store procedures).",
+            "homepage": "https://groups.google.com/forum/#!forum/postgresql-extensions-hacking",
             "id": 15437182,
             "language": "C",
+            "license": "NOASSERTION",
             "last_commit": "2026-08-16T04:09:51Z",
+            "open_issues": 0,
             "owner": "okbob",
             "repo": "plpgsql_check",
-            "stars": 777
+            "stars": 777,
+            "topics": [
+              "c",
+              "extension",
+              "function-plpgsql",
+              "linter",
+              "pldbgapi",
+              "plpgsql",
+              "postgresql",
+              "postgresql-extension",
+              "profiler",
+              "stored-procedures"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1124,12 +1981,20 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A PostgreSQL extension for automatic bloat cleanup",
+            "homepage": null,
             "id": 74355274,
             "language": "C",
+            "license": "NOASSERTION",
             "last_commit": "2026-07-29T15:33:18Z",
+            "open_issues": 1,
             "owner": "cybertec-postgresql",
             "repo": "pg_squeeze",
-            "stars": 691
+            "stars": 691,
+            "topics": [
+              "postgresql",
+              "postgresql-extension"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1140,12 +2005,27 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Query Performance Monitoring Tool for PostgreSQL",
+            "homepage": "https://docs.percona.com/pg-stat-monitor/",
             "id": 222681029,
             "language": "Perl",
-            "last_commit": "2026-08-28T14:26:26Z",
+            "license": "NOASSERTION",
+            "last_commit": "2026-08-28T15:43:15Z",
+            "open_issues": 6,
             "owner": "percona",
             "repo": "pg_stat_monitor",
-            "stars": 588
+            "stars": 588,
+            "topics": [
+              "distpg",
+              "hacktoberfest",
+              "percona",
+              "percona-distribution",
+              "pg",
+              "postgres",
+              "postgresql",
+              "statistics",
+              "statistics-collector"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1156,12 +2036,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Audit trail with schema versioning for PostgreSQL using transaction-based logging",
+            "homepage": null,
             "id": 27195841,
             "language": "PLpgSQL",
+            "license": "LGPL-3.0",
             "last_commit": "2026-04-27T09:03:18Z",
+            "open_issues": 11,
             "owner": "pgMemento",
             "repo": "pgMemento",
-            "stars": 411
+            "stars": 411,
+            "topics": [
+              "audit-trail",
+              "jsonb",
+              "plpgsql",
+              "postgresql",
+              "transaction-log",
+              "versioning"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1172,12 +2064,21 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Enhanced PostgreSQL logical replication",
+            "homepage": null,
             "id": 212550776,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2024-09-26T15:43:56Z",
+            "open_issues": 1,
             "owner": "kingluo",
             "repo": "pgcat",
-            "stars": 386
+            "stars": 386,
+            "topics": [
+              "golang",
+              "logical-replication",
+              "postgresql"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1188,12 +2089,17 @@
           "children": [],
           "repo_info": {
             "archived": true,
+            "description": "Basic implementation of Paxos and Paxos-based table replication for a cluster of PostgreSQL nodes",
+            "homepage": null,
             "id": 44739923,
             "language": "C",
+            "license": "PostgreSQL",
             "last_commit": "2022-09-16T14:16:45Z",
+            "open_issues": 5,
             "owner": "microsoft",
             "repo": "pg_paxos",
-            "stars": 309
+            "stars": 309,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1204,12 +2110,22 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Postgres Themis plugin",
+            "homepage": "https://www.cossacklabs.com/themis/",
             "id": 72527524,
             "language": "C",
+            "license": "Apache-2.0",
             "last_commit": "2016-12-12T16:07:59Z",
+            "open_issues": 1,
             "owner": "cossacklabs",
             "repo": "pg_themis",
-            "stars": 33
+            "stars": 33,
+            "topics": [
+              "cryptography",
+              "encrypted-data",
+              "encryption",
+              "postgresql"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1220,12 +2136,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "PostgreSQL SVG QRcode & Datamatrix generator",
+            "homepage": null,
             "id": 901822397,
             "language": "C",
+            "license": null,
             "last_commit": "2025-01-09T14:16:25Z",
+            "open_issues": 0,
             "owner": "btouchard",
             "repo": "pg_barcode",
-            "stars": 1
+            "stars": 1,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         }
@@ -1242,12 +2163,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Fast and reliable background jobs in Go",
+            "homepage": "https://riverqueue.com",
             "id": 716228772,
             "language": "Go",
+            "license": "MPL-2.0",
             "last_commit": "2026-08-27T02:59:46Z",
+            "open_issues": 57,
             "owner": "riverqueue",
             "repo": "river",
-            "stars": 5609
+            "stars": 5610,
+            "topics": [
+              "background-jobs",
+              "go",
+              "golang",
+              "postgres",
+              "postgresql",
+              "queue"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1258,12 +2191,19 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.",
+            "homepage": "https://pgmq.github.io/pgmq/",
             "id": 670192969,
             "language": "Rust",
-            "last_commit": "2026-08-21T14:27:02Z",
+            "license": "PostgreSQL",
+            "last_commit": "2026-08-28T21:13:56Z",
+            "open_issues": 27,
             "owner": "pgmq",
             "repo": "pgmq",
-            "stars": 5124
+            "stars": 5128,
+            "topics": [
+              "message-queue"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1274,12 +2214,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Queueing jobs in Postgres from Node.js like a boss",
+            "homepage": "https://pgboss.io/",
             "id": 52692900,
             "language": "TypeScript",
-            "last_commit": "2026-08-28T01:48:54Z",
+            "license": "MIT",
+            "last_commit": "2026-08-28T20:24:36Z",
+            "open_issues": 23,
             "owner": "timgit",
             "repo": "pg-boss",
-            "stars": 3912
+            "stars": 3913,
+            "topics": [
+              "job",
+              "node",
+              "nodejs",
+              "postgres",
+              "postgresql",
+              "queue"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1290,12 +2242,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "BeanQueue, a lightweight Python task queue framework based on SQLAlchemy, PostgreSQL SKIP LOCKED queries and NOTIFY / LISTEN statements.",
+            "homepage": null,
             "id": 799632108,
             "language": "Python",
-            "last_commit": "2026-08-28T08:45:52Z",
+            "license": "MIT",
+            "last_commit": "2026-08-28T16:20:22Z",
+            "open_issues": 9,
             "owner": "LaunchPlatform",
             "repo": "bq",
-            "stars": 28
+            "stars": 28,
+            "topics": [
+              "postgresql",
+              "python",
+              "queue",
+              "sqlalchemy",
+              "task-queue",
+              "worker"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         }
@@ -1312,12 +2276,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A performance dashboard for Postgres",
+            "homepage": null,
             "id": 22059578,
             "language": "Ruby",
+            "license": "MIT",
             "last_commit": "2026-08-15T21:05:00Z",
+            "open_issues": 4,
             "owner": "ankane",
             "repo": "pghero",
-            "stars": 8915
+            "stars": 8915,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1328,12 +2297,20 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Postgres Explain Visualizer 2",
+            "homepage": "https://explain.dalibo.com",
             "id": 200599942,
             "language": "TypeScript",
+            "license": "PostgreSQL",
             "last_commit": "2026-08-28T12:04:39Z",
+            "open_issues": 67,
             "owner": "dalibo",
             "repo": "pev2",
-            "stars": 3575
+            "stars": 3575,
+            "topics": [
+              "explain",
+              "postgresql"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1344,12 +2321,28 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Pgtune - tuning PostgreSQL config by your hardware",
+            "homepage": "https://pgtune.leopard.in.ua/",
             "id": 17980400,
             "language": "JavaScript",
+            "license": "MIT",
             "last_commit": "2026-08-08T22:34:41Z",
+            "open_issues": 0,
             "owner": "le0pard",
             "repo": "pgtune",
-            "stars": 2735
+            "stars": 2735,
+            "topics": [
+              "database",
+              "hardware",
+              "javascript",
+              "performance",
+              "performance-tuning",
+              "pgtune",
+              "postgresql",
+              "pwa",
+              "rdbms",
+              "tunning"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1360,12 +2353,25 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A flamegraph generator for Postgres EXPLAIN ANALYZE output.",
+            "homepage": null,
             "id": 215655521,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2020-01-13T23:28:06Z",
+            "open_issues": 2,
             "owner": "mgartner",
             "repo": "pg_flame",
-            "stars": 1620
+            "stars": 1620,
+            "topics": [
+              "database",
+              "flamegraph",
+              "performance",
+              "performance-visualization",
+              "postgres",
+              "postgresql",
+              "postgresql-tool"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1376,12 +2382,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "PostgreSQL configuration wizard",
+            "homepage": "http://pgfoundry.org/projects/pgtune/",
             "id": 484120,
             "language": "Python",
+            "license": "BSD-3-Clause",
             "last_commit": "2021-08-17T05:31:55Z",
+            "open_issues": 12,
             "owner": "gregs1104",
             "repo": "pgtune",
-            "stars": 1089
+            "stars": 1089,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1392,12 +2403,21 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A tool for tuning TimescaleDB for better performance by adjusting settings to match your system's CPU and memory resources.",
+            "homepage": "https://www.timescale.com/",
             "id": 158437146,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-03T16:24:16Z",
+            "open_issues": 19,
             "owner": "timescale",
             "repo": "timescaledb-tune",
-            "stars": 503
+            "stars": 503,
+            "topics": [
+              "postgresql",
+              "timescaledb",
+              "tuning"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1408,12 +2428,22 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Adaptive query optimization for PostgreSQL",
+            "homepage": null,
             "id": 72944971,
             "language": "C",
+            "license": "AGPL-3.0",
             "last_commit": "2026-06-27T15:51:01Z",
+            "open_issues": 9,
             "owner": "postgrespro",
             "repo": "aqo",
-            "stars": 499
+            "stars": 499,
+            "topics": [
+              "adaptive",
+              "optimization",
+              "postgresql",
+              "query-optimizer"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1424,12 +2454,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Web UI to view pg_stat_statements",
+            "homepage": null,
             "id": 11048736,
             "language": "Ruby",
+            "license": null,
             "last_commit": "2018-10-14T14:19:57Z",
+            "open_issues": 3,
             "owner": "kirs",
             "repo": "pg_web_stats",
-            "stars": 97
+            "stars": 97,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1440,12 +2475,17 @@
           "children": [],
           "repo_info": {
             "archived": true,
+            "description": "Web Based PostgreSQL configuration tool",
+            "homepage": null,
             "id": 20327934,
             "language": "JavaScript",
+            "license": null,
             "last_commit": "2020-08-20T20:36:19Z",
+            "open_issues": 9,
             "owner": "sebawebber",
             "repo": "pgconfig",
-            "stars": 88
+            "stars": 88,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1456,12 +2496,22 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A PostgreSQL assistant for developers Understand, optimize, and improve your PostgreSQL database with ease.",
+            "homepage": "https://beh74.github.io/pgassistant-blog/",
             "id": 1034559490,
             "language": "JavaScript",
+            "license": "NOASSERTION",
             "last_commit": "2026-08-11T04:26:27Z",
+            "open_issues": 3,
             "owner": "beh74",
             "repo": "pgassistant-community",
-            "stars": 41
+            "stars": 41,
+            "topics": [
+              "design",
+              "llm",
+              "performance",
+              "postgresql"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         }
@@ -1478,12 +2528,33 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Blazing fast, instant realtime GraphQL APIs on all your data with fine grained access control, also trigger webhooks on database events.",
+            "homepage": "https://hasura.io",
             "id": 137724480,
             "language": "TypeScript",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-19T16:56:27Z",
+            "open_issues": 2374,
             "owner": "hasura",
             "repo": "graphql-engine",
-            "stars": 32103
+            "stars": 32104,
+            "topics": [
+              "access-control",
+              "api",
+              "automatic-api",
+              "bigquery",
+              "graphql",
+              "graphql-api",
+              "graphql-server",
+              "haskell",
+              "hasura",
+              "mongodb",
+              "postgres",
+              "rest-api",
+              "sql-server",
+              "subgraph",
+              "supergraph"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1494,12 +2565,31 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "REST API for any Postgres database",
+            "homepage": "https://postgrest.org",
             "id": 20787122,
             "language": "Haskell",
+            "license": "MIT",
             "last_commit": "2026-08-27T00:40:04Z",
+            "open_issues": 396,
             "owner": "PostgREST",
             "repo": "postgrest",
-            "stars": 27632
+            "stars": 27633,
+            "topics": [
+              "api",
+              "automatic-api",
+              "database",
+              "haskell",
+              "http",
+              "pg",
+              "pgsql",
+              "postgres",
+              "postgresql",
+              "postgrest",
+              "rest",
+              "server",
+              "sql"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1510,12 +2600,38 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "🔮 Graphile's Crystal Monorepo; home to Grafast, PostGraphile, pg-introspection, pg-sql2 and much more!",
+            "homepage": "https://graphile.org/",
             "id": 56271158,
             "language": "TypeScript",
-            "last_commit": "2026-08-28T14:18:27Z",
+            "license": "MIT",
+            "last_commit": "2026-08-28T22:50:08Z",
+            "open_issues": 163,
             "owner": "graphile",
             "repo": "crystal",
-            "stars": 12929
+            "stars": 12930,
+            "topics": [
+              "api",
+              "automatic-api",
+              "express",
+              "graphile",
+              "graphql",
+              "graphql-api",
+              "graphql-js",
+              "http",
+              "instant",
+              "koa",
+              "koa2",
+              "node",
+              "nodejs",
+              "pg",
+              "pgsql",
+              "postgraphql",
+              "postgres",
+              "postgresql",
+              "schema",
+              "typescript"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1526,12 +2642,25 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "PostgreSQL zero-downtime migrations made easy",
+            "homepage": "https://pgroll.com",
             "id": 657224325,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-19T06:03:51Z",
+            "open_issues": 101,
             "owner": "xataio",
             "repo": "pgroll",
-            "stars": 6565
+            "stars": 6565,
+            "topics": [
+              "golang",
+              "hacktoberfest",
+              "migrations",
+              "postgres",
+              "postgresql",
+              "schema",
+              "zero-downtime"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1542,12 +2671,31 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Migrate to PostgreSQL in a single command!",
+            "homepage": "http://pgloader.io",
             "id": 594087,
             "language": "Common Lisp",
+            "license": "NOASSERTION",
             "last_commit": "2026-07-24T14:35:08Z",
+            "open_issues": 28,
             "owner": "dimitri",
             "repo": "pgloader",
-            "stars": 6508
+            "stars": 6508,
+            "topics": [
+              "clozure-cl",
+              "common-lisp",
+              "csv",
+              "database",
+              "dbase",
+              "ixf",
+              "migration",
+              "mssql",
+              "mysql",
+              "pgloader",
+              "postgresql",
+              "sbcl",
+              "sqlite"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1558,12 +2706,38 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "PostgreSQL ➕ REST, low-code, simplify and accelerate development, ⚡ instant, realtime, high-performance on any Postgres application, existing or new, MCP server",
+            "homepage": "https://www.prestd.com",
             "id": 74436942,
             "language": "Go",
+            "license": "MIT",
             "last_commit": "2026-08-28T09:31:10Z",
+            "open_issues": 153,
             "owner": "prest",
             "repo": "prest",
-            "stars": 4611
+            "stars": 4611,
+            "topics": [
+              "api",
+              "baas",
+              "backend",
+              "crud",
+              "database",
+              "docker",
+              "golang",
+              "instant-api",
+              "jwt",
+              "low-code",
+              "mcp",
+              "microservice",
+              "model-context-protocol",
+              "openapi",
+              "postgres",
+              "postgresql",
+              "rest-api",
+              "self-hosted",
+              "sql",
+              "timescaledb"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1574,12 +2748,23 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A fast PostgreSQL Log Analyzer",
+            "homepage": "http://pgbadger.darold.net/",
             "id": 3992324,
             "language": "Perl",
+            "license": "PostgreSQL",
             "last_commit": "2026-07-14T17:54:44Z",
+            "open_issues": 22,
             "owner": "darold",
             "repo": "pgbadger",
-            "stars": 4053
+            "stars": 4053,
+            "topics": [
+              "log",
+              "perfomance",
+              "postgresql",
+              "sql",
+              "tuning"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1590,12 +2775,19 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Sync data from one Postgres database to another",
+            "homepage": null,
             "id": 47600993,
             "language": "Ruby",
+            "license": "MIT",
             "last_commit": "2026-08-15T21:07:28Z",
+            "open_issues": 14,
             "owner": "ankane",
             "repo": "pgsync",
-            "stars": 3469
+            "stars": 3469,
+            "topics": [
+              "postgresql"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1606,12 +2798,31 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Sensible database change management",
+            "homepage": "https://sqitch.org",
             "id": 3280939,
             "language": "Perl",
+            "license": "MIT",
             "last_commit": "2026-08-23T23:52:38Z",
+            "open_issues": 83,
             "owner": "sqitchers",
             "repo": "sqitch",
-            "stars": 3157
+            "stars": 3157,
+            "topics": [
+              "clickhouse",
+              "cockroachdb",
+              "database",
+              "exasol",
+              "firebird",
+              "mysql",
+              "oracle",
+              "postgresql",
+              "snowflake",
+              "sqitch",
+              "sqlite",
+              "vertica",
+              "yugabytedb"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1622,12 +2833,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "DEPRECATED: Like diff but for PostgreSQL schemas",
+            "homepage": null,
             "id": 64103823,
             "language": "Python",
+            "license": "Unlicense",
             "last_commit": "2025-08-25T12:32:22Z",
+            "open_issues": 88,
             "owner": "djrobstep",
             "repo": "migra",
-            "stars": 3051
+            "stars": 3051,
+            "topics": [
+              "developer-experience",
+              "developer-tools",
+              "postgresql",
+              "python",
+              "schema-changes",
+              "schema-migrations"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1638,12 +2861,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "pg_activity is a top like application for PostgreSQL server activity monitoring.",
+            "homepage": null,
             "id": 6432337,
             "language": "Python",
+            "license": "PostgreSQL",
             "last_commit": "2026-08-01T06:03:15Z",
+            "open_issues": 15,
             "owner": "dalibo",
             "repo": "pg_activity",
-            "stars": 3035
+            "stars": 3035,
+            "topics": [
+              "activity",
+              "cli",
+              "monitoring",
+              "postgresql",
+              "sql",
+              "top"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1654,12 +2889,26 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Automatically identify anti-patterns in SQL queries",
+            "homepage": null,
             "id": 87006792,
             "language": "C++",
+            "license": "Apache-2.0",
             "last_commit": "2024-02-21T13:30:05Z",
+            "open_issues": 14,
             "owner": "jarulraj",
             "repo": "sqlcheck",
-            "stars": 2522
+            "stars": 2522,
+            "topics": [
+              "command-line",
+              "database",
+              "microsoft-sql-server",
+              "mysql",
+              "oracle",
+              "postgresql",
+              "sql",
+              "sqlite3"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1670,12 +2919,38 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Database anonymization and test data management",
+            "homepage": "https://greenmask.io",
             "id": 726261658,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-25T18:17:22Z",
+            "open_issues": 51,
             "owner": "GreenmaskIO",
             "repo": "greenmask",
-            "stars": 1753
+            "stars": 1753,
+            "topics": [
+              "anonymization",
+              "backup",
+              "data-masking",
+              "database",
+              "dba",
+              "differential-privacy",
+              "dump",
+              "faker",
+              "go",
+              "golang",
+              "mysql",
+              "mysqldump",
+              "obfuscation",
+              "pg",
+              "postgresql",
+              "security",
+              "security-tools",
+              "sql-dump",
+              "synthetic-data",
+              "testing-tools"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1686,12 +2961,21 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Command-line admin tool for observing and troubleshooting Postgres.",
+            "homepage": null,
             "id": 41038664,
             "language": "Go",
+            "license": "NOASSERTION",
             "last_commit": "2026-08-06T11:45:45Z",
+            "open_issues": 0,
             "owner": "lesovsky",
             "repo": "pgcenter",
-            "stars": 1624
+            "stars": 1624,
+            "topics": [
+              "postgresql",
+              "postgresql-admin",
+              "postgresql-statistics"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1702,12 +2986,26 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Entity Relation Diagrams generation tool",
+            "homepage": null,
             "id": 34818433,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2026-05-05T14:20:10Z",
+            "open_issues": 11,
             "owner": "eralchemy",
             "repo": "eralchemy",
-            "stars": 1427
+            "stars": 1427,
+            "topics": [
+              "database",
+              "documentation-tool",
+              "mysql",
+              "postgresql",
+              "schema",
+              "sql",
+              "sqlalchemy",
+              "visualization"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1718,12 +3016,28 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "pg_timetable: Advanced scheduling for PostgreSQL",
+            "homepage": "https://www.cybertec-postgresql.com/en/products/pg_timetable/",
             "id": 162420527,
             "language": "Go",
-            "last_commit": "2026-08-27T11:16:52Z",
+            "license": "NOASSERTION",
+            "last_commit": "2026-08-28T16:04:42Z",
+            "open_issues": 0,
             "owner": "cybertec-postgresql",
             "repo": "pg_timetable",
-            "stars": 1395
+            "stars": 1395,
+            "topics": [
+              "chains",
+              "cron",
+              "database",
+              "docker-image",
+              "interval",
+              "pg-timetable",
+              "postgresql",
+              "postgresql-frontend",
+              "scheduling",
+              "sql"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1734,12 +3048,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Import CSV and JSON into PostgreSQL the easy way",
+            "homepage": null,
             "id": 40734925,
             "language": "Go",
+            "license": "MIT",
             "last_commit": "2020-09-02T15:35:53Z",
+            "open_issues": 55,
             "owner": "lukasmartinelli",
             "repo": "pgfutter",
-            "stars": 1345
+            "stars": 1345,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1750,12 +3069,26 @@
           "children": [],
           "repo_info": {
             "archived": true,
+            "description": "Postgres high-availability cluster with auto-failover and automated cluster recovery.",
+            "homepage": null,
             "id": 45634141,
             "language": "Go",
+            "license": "NOASSERTION",
             "last_commit": "2016-01-07T00:37:05Z",
+            "open_issues": 10,
             "owner": "nanopack",
             "repo": "yoke",
-            "stars": 1341
+            "stars": 1341,
+            "topics": [
+              "auto-failover",
+              "availability-cluster",
+              "cluster",
+              "golang",
+              "nanobox",
+              "nanopack",
+              "postgres",
+              "redundancy"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1766,12 +3099,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Lanyrd's MySQL to PostgreSQL conversion script",
+            "homepage": null,
             "id": 6672014,
             "language": "Python",
+            "license": "BSD-2-Clause",
             "last_commit": "2022-09-16T22:15:00Z",
+            "open_issues": 29,
             "owner": "lanyrd",
             "repo": "mysql-postgresql-converter",
-            "stars": 1316
+            "stars": 1316,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1782,12 +3120,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "PostgreSQL Monitoring, Metrics Collection and Alerting Resources from Crunchy Data",
+            "homepage": null,
             "id": 103325729,
             "language": "PLpgSQL",
+            "license": "NOASSERTION",
             "last_commit": "2026-04-23T12:34:51Z",
+            "open_issues": 14,
             "owner": "CrunchyData",
             "repo": "pgmonitor",
-            "stars": 714
+            "stars": 714,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1798,12 +3141,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Simple tool to evolve PostgreSQL schema easily.",
+            "homepage": null,
             "id": 69805284,
             "language": "Python",
+            "license": "PostgreSQL",
             "last_commit": "2026-08-28T08:23:46Z",
+            "open_issues": 0,
             "owner": "yandex",
             "repo": "pgmigrate",
-            "stars": 668
+            "stars": 668,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1814,12 +3162,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Tool that extracts and provides metrics on your PostgreSQL database",
+            "homepage": null,
             "id": 41426300,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2023-05-29T21:56:05Z",
+            "open_issues": 3,
             "owner": "spotify",
             "repo": "postgresql-metrics",
-            "stars": 598
+            "stars": 598,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1830,12 +3183,23 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "ZSON is a PostgreSQL extension for transparent JSONB compression",
+            "homepage": "http://eax.me/postgresql-extensions/",
             "id": 69675750,
             "language": "C",
+            "license": "MIT",
             "last_commit": "2023-04-14T20:26:36Z",
+            "open_issues": 0,
             "owner": "postgrespro",
             "repo": "zson",
-            "stars": 568
+            "stars": 568,
+            "topics": [
+              "compression",
+              "extensions",
+              "json",
+              "jsonb",
+              "postgresql"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1846,12 +3210,21 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Generate PlantUML ER diagram textual description from PostgreSQL tables",
+            "homepage": null,
             "id": 103798135,
             "language": "Go",
+            "license": "MIT",
             "last_commit": "2024-03-30T20:03:11Z",
+            "open_issues": 6,
             "owner": "achiku",
             "repo": "planter",
-            "stars": 556
+            "stars": 556,
+            "topics": [
+              "er-diagram",
+              "plantuml",
+              "posgresql"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1862,12 +3235,28 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "MySQL to PostgreSQL replica system",
+            "homepage": "http://www.pgchameleon.org",
             "id": 11863567,
             "language": "Python",
+            "license": "BSD-2-Clause",
             "last_commit": "2026-05-25T19:06:08Z",
+            "open_issues": 48,
             "owner": "the4thdoctor",
             "repo": "pg_chameleon",
-            "stars": 440
+            "stars": 440,
+            "topics": [
+              "database",
+              "database-migrations",
+              "database-replication",
+              "linux",
+              "mysql",
+              "mysql-replication",
+              "postgres",
+              "postgresql",
+              "python",
+              "replication"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1878,12 +3267,21 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Provides utilities for Postgres database schema versioning.",
+            "homepage": "https://perseas.github.io/",
             "id": 1546410,
             "language": "Python",
+            "license": "BSD-3-Clause",
             "last_commit": "2024-07-10T21:03:13Z",
+            "open_issues": 48,
             "owner": "perseas",
             "repo": "Pyrseas",
-            "stars": 406
+            "stars": 406,
+            "topics": [
+              "postgres",
+              "python",
+              "schema-evolution"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1894,12 +3292,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Automatic data change tracking for PostgreSQL",
+            "homepage": "https://bemi.io",
             "id": 751391341,
             "language": "TypeScript",
+            "license": "NOASSERTION",
             "last_commit": "2025-12-23T18:02:07Z",
+            "open_issues": 1,
             "owner": "BemiHQ",
             "repo": "bemi-io",
-            "stars": 401
+            "stars": 401,
+            "topics": [
+              "audit-log",
+              "audit-trail",
+              "change-data-capture",
+              "change-tracking",
+              "data-versioning",
+              "postgresql"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1910,12 +3320,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Export data from PostgreSQL into different data formats",
+            "homepage": null,
             "id": 51299221,
             "language": "Go",
+            "license": "MIT",
             "last_commit": "2020-06-18T13:30:36Z",
+            "open_issues": 15,
             "owner": "lukasmartinelli",
             "repo": "pgclimb",
-            "stars": 393
+            "stars": 393,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1926,12 +3341,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Regression Testing your SQL queries",
+            "homepage": null,
             "id": 99675332,
             "language": "Go",
+            "license": "NOASSERTION",
             "last_commit": "2026-05-23T11:28:37Z",
+            "open_issues": 5,
             "owner": "dimitri",
             "repo": "regresql",
-            "stars": 358
+            "stars": 358,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1942,12 +3362,27 @@
           "children": [],
           "repo_info": {
             "archived": true,
+            "description": "A collection of convenient SQL for monitoring Postgres database health.",
+            "homepage": null,
             "id": 129978376,
             "language": "TSQL",
+            "license": "MIT",
             "last_commit": "2019-12-11T00:53:24Z",
+            "open_issues": 0,
             "owner": "lob",
             "repo": "pg_insights",
-            "stars": 310
+            "stars": 310,
+            "topics": [
+              "database",
+              "database-maintenance",
+              "database-management",
+              "database-monitoring",
+              "monitoring",
+              "pg-extras",
+              "pg-insights",
+              "postgres",
+              "psql"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1958,12 +3393,30 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "database gateway for building data-driven applications",
+            "homepage": "https://gatewayd.io",
             "id": 514014992,
             "language": "Go",
+            "license": "AGPL-3.0",
             "last_commit": "2026-08-20T23:51:27Z",
+            "open_issues": 87,
             "owner": "gatewayd-io",
             "repo": "gatewayd",
-            "stars": 288
+            "stars": 288,
+            "topics": [
+              "cloud-native",
+              "connection-pool",
+              "data-driven",
+              "database",
+              "event-based",
+              "framework",
+              "gateway",
+              "gatewayd",
+              "microgateway",
+              "plugin-system",
+              "postgresql",
+              "proxy"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1974,12 +3427,28 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": ":elephant: :busts_in_silhouette: Manage PostgreSQL roles and privileges from YAML or LDAP",
+            "homepage": "https://labs.dalibo.com/ldap2pg",
             "id": 94523624,
             "language": "Go",
+            "license": "PostgreSQL",
             "last_commit": "2026-08-24T08:11:22Z",
+            "open_issues": 16,
             "owner": "dalibo",
             "repo": "ldap2pg",
-            "stars": 235
+            "stars": 235,
+            "topics": [
+              "acl",
+              "directory",
+              "golang",
+              "ldap",
+              "postgresql",
+              "privileges",
+              "roles",
+              "security",
+              "users",
+              "yaml"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -1990,12 +3459,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A command line client for the PostgreSQL Extension Network",
+            "homepage": "https://pgxn.github.io/pgxnclient/",
             "id": 1662652,
             "language": "Python",
+            "license": "NOASSERTION",
             "last_commit": "2024-06-14T08:29:58Z",
+            "open_issues": 6,
             "owner": "pgxn",
             "repo": "pgxnclient",
-            "stars": 160
+            "stars": 160,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -2006,12 +3480,21 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Spot vulnerabilities in postgres SQL scripts",
+            "homepage": null,
             "id": 457896639,
             "language": "Python",
-            "last_commit": "2026-08-27T23:16:06Z",
+            "license": "PostgreSQL",
+            "last_commit": "2026-08-29T02:46:31Z",
+            "open_issues": 9,
             "owner": "timescale",
             "repo": "pgspot",
-            "stars": 147
+            "stars": 147,
+            "topics": [
+              "postgresql",
+              "python",
+              "security"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -2022,12 +3505,33 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Linter for dangerous Postgres migration patterns in Diesel and SQLx. Prevents   downtime caused by unsafe schema changes.",
+            "homepage": "https://ayarotsky.github.io/diesel-guard/",
             "id": 1106385392,
             "language": "Rust",
+            "license": "MIT",
             "last_commit": "2026-08-24T13:08:39Z",
+            "open_issues": 6,
             "owner": "ayarotsky",
             "repo": "diesel-guard",
-            "stars": 120
+            "stars": 120,
+            "topics": [
+              "cli",
+              "code-review",
+              "database",
+              "diesel",
+              "diesel-rs",
+              "linter",
+              "migration",
+              "postgres",
+              "postgres-migrations",
+              "postgresql",
+              "rust",
+              "sql",
+              "sqlx",
+              "static-analysis",
+              "zero-downtime"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -2038,12 +3542,20 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A PostgreSQL SQL syntax beautifier.",
+            "homepage": null,
             "id": 93439921,
             "language": "TypeScript",
+            "license": "NOASSERTION",
             "last_commit": "2026-03-27T14:04:36Z",
+            "open_issues": 14,
             "owner": "gajus",
             "repo": "pg-formatter",
-            "stars": 83
+            "stars": 83,
+            "topics": [
+              "postgresql",
+              "pretty"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -2054,12 +3566,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Stateful Postgres on cheap Spot VMs",
+            "homepage": null,
             "id": 858111153,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2026-07-28T21:26:19Z",
+            "open_issues": 22,
             "owner": "pg-spot-ops",
             "repo": "pg-spot-operator",
-            "stars": 59
+            "stars": 59,
+            "topics": [
+              "ansible",
+              "aws",
+              "postgres",
+              "self-hosting",
+              "spot",
+              "vm"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -2070,12 +3594,20 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "SQL Server Transport for NServiceBus",
+            "homepage": "https://docs.particular.net/nservicebus/sqlserver/",
             "id": 12769207,
             "language": "C#",
+            "license": "NOASSERTION",
             "last_commit": "2026-08-24T21:44:27Z",
+            "open_issues": 31,
             "owner": "Particular",
             "repo": "NServiceBus.SqlServer",
-            "stars": 47
+            "stars": 47,
+            "topics": [
+              "nservicebus",
+              "sql-server"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -2086,12 +3618,22 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Tool for comparing Postgres database schemas",
+            "homepage": null,
             "id": 7491657,
             "language": "Shell",
+            "license": "NOASSERTION",
             "last_commit": "2024-05-15T18:53:56Z",
+            "open_issues": 0,
             "owner": "cbbrowne",
             "repo": "pgcmp",
-            "stars": 46
+            "stars": 46,
+            "topics": [
+              "comparison",
+              "postgresql",
+              "schema",
+              "shell"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -2102,12 +3644,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Node.js migration tool for PostgreSQL",
+            "homepage": "https://multum.github.io/pg-differ",
             "id": 167980646,
             "language": "JavaScript",
+            "license": "MIT",
             "last_commit": "2026-02-22T22:51:58Z",
+            "open_issues": 9,
             "owner": "multum",
             "repo": "pg-differ",
-            "stars": 40
+            "stars": 40,
+            "topics": [
+              "automigrate",
+              "migration-tool",
+              "nodejs",
+              "pg-differ",
+              "postgres",
+              "postgresql"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -2118,12 +3672,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "AST-native PostgreSQL toolkit: typed queries to wire protocol, with built-in RLS tenant isolation.",
+            "homepage": "https://dev.qail.io",
             "id": 1120152097,
             "language": "Rust",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-25T16:01:17Z",
+            "open_issues": 4,
             "owner": "qail-io",
             "repo": "qail",
-            "stars": 35
+            "stars": 35,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -2134,12 +3693,20 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Manage postgres schema, triggers, procedures, and views",
+            "homepage": null,
             "id": 84036768,
             "language": "C",
+            "license": "MIT",
             "last_commit": "2017-10-11T19:02:24Z",
+            "open_issues": 0,
             "owner": "jwdeitch",
             "repo": "pg_migrate",
-            "stars": 32
+            "stars": 32,
+            "topics": [
+              "migrator",
+              "postgres"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -2150,12 +3717,23 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "pglistend - A lightweight PostgreSQL LISTEN Daemon using Node.js/Systemd",
+            "homepage": null,
             "id": 62128917,
             "language": "JavaScript",
+            "license": "MIT",
             "last_commit": "2017-03-29T18:32:15Z",
+            "open_issues": 0,
             "owner": "kabirbaidhya",
             "repo": "pglistend",
-            "stars": 30
+            "stars": 30,
+            "topics": [
+              "daemon",
+              "database",
+              "listen",
+              "nodejs",
+              "postgres"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -2166,12 +3744,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A browser extension (Chrome and Firefox) for getting to the current Postgres docs by default.",
+            "homepage": null,
             "id": 256837164,
             "language": "JavaScript",
+            "license": "MIT",
             "last_commit": "2025-04-04T20:46:57Z",
+            "open_issues": 0,
             "owner": "mchristofides",
             "repo": "pg_docs_bot",
-            "stars": 18
+            "stars": 18,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -2182,12 +3765,30 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Safety-first PostgreSQL migration engine for Node.js — advisory locks, drift detection, checksum verification, 10 lint rules, CLI, and GitHub Action",
+            "homepage": null,
             "id": 1170418955,
             "language": "TypeScript",
+            "license": "MIT",
             "last_commit": "2026-03-03T00:20:15Z",
+            "open_issues": 0,
             "owner": "defnotwig",
             "repo": "pg-safe-migrate",
-            "stars": 1
+            "stars": 1,
+            "topics": [
+              "advisory-locks",
+              "cli",
+              "database",
+              "devops",
+              "drift-detection",
+              "github-action",
+              "linter",
+              "migrations",
+              "nodejs",
+              "postgresql",
+              "safety",
+              "typescript"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         }
@@ -2204,12 +3805,23 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "PostgreSQL client for node.js.",
+            "homepage": "https://node-postgres.com",
             "id": 991475,
             "language": "JavaScript",
+            "license": "MIT",
             "last_commit": "2026-08-18T22:27:03Z",
+            "open_issues": 518,
             "owner": "brianc",
             "repo": "node-postgres",
-            "stars": 13198
+            "stars": 13198,
+            "topics": [
+              "libpq",
+              "node-postgres",
+              "postgres",
+              "postgresql",
+              "postgresql-driver"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -2220,12 +3832,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Go PostgreSQL driver for database/sql",
+            "homepage": "https://pkg.go.dev/github.com/lib/pq",
             "id": 3698588,
             "language": "Go",
+            "license": "NOASSERTION",
             "last_commit": "2026-08-20T22:27:53Z",
+            "open_issues": 52,
             "owner": "lib",
             "repo": "pq",
-            "stars": 9951
+            "stars": 9951,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -2236,12 +3853,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Native PostgreSQL driver for the Rust programming language",
+            "homepage": null,
             "id": 11599760,
             "language": "Rust",
+            "license": "Apache-2.0",
             "last_commit": "2026-07-27T10:57:11Z",
+            "open_issues": 179,
             "owner": "rust-postgres",
             "repo": "rust-postgres",
-            "stars": 3989
+            "stars": 3989,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -2252,12 +3874,25 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Npgsql is the .NET data provider for PostgreSQL.",
+            "homepage": "http://www.npgsql.org",
             "id": 2883574,
             "language": "C#",
+            "license": "PostgreSQL",
             "last_commit": "2026-08-28T10:15:56Z",
+            "open_issues": 223,
             "owner": "npgsql",
             "repo": "npgsql",
-            "stars": 3721
+            "stars": 3721,
+            "topics": [
+              "c-sharp",
+              "database",
+              "dotnet",
+              "npgsql",
+              "postgres",
+              "postgresql",
+              "sql"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -2268,12 +3903,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Zero-abstraction Postgres for TypeScript: a non-ORM database library",
+            "homepage": "https://jawj.github.io/zapatos/",
             "id": 247559216,
             "language": "TypeScript",
+            "license": "NOASSERTION",
             "last_commit": "2025-09-19T08:59:31Z",
+            "open_issues": 51,
             "owner": "jawj",
             "repo": "zapatos",
-            "stars": 1402
+            "stars": 1402,
+            "topics": [
+              "orm",
+              "postgres",
+              "postgres-database",
+              "postgresql",
+              "postgresql-database",
+              "typescript"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -2284,12 +3931,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "PostgreSQL driver for Elixir",
+            "homepage": "http://hexdocs.pm/postgrex/",
             "id": 12682522,
             "language": "Elixir",
+            "license": null,
             "last_commit": "2026-08-07T12:06:52Z",
+            "open_issues": 4,
             "owner": "elixir-ecto",
             "repo": "postgrex",
-            "stars": 1214
+            "stars": 1215,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -2300,12 +3952,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A PostgreSQL client library for Ruby",
+            "homepage": null,
             "id": 11481074,
             "language": "C",
+            "license": "NOASSERTION",
             "last_commit": "2026-08-23T11:33:04Z",
+            "open_issues": 21,
             "owner": "ged",
             "repo": "ruby-pg",
-            "stars": 871
+            "stars": 871,
+            "topics": [
+              "c",
+              "client",
+              "database",
+              "postgresql",
+              "rdbms",
+              "ruby"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -2316,12 +3980,22 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Native PostgreSQL driver / client for Zig",
+            "homepage": null,
             "id": 710091661,
             "language": "Zig",
+            "license": "MIT",
             "last_commit": "2026-08-26T09:59:47Z",
+            "open_issues": 4,
             "owner": "karlseguin",
             "repo": "pg.zig",
-            "stars": 590
+            "stars": 590,
+            "topics": [
+              "postgresql-client",
+              "zig",
+              "zig-library",
+              "zig-package"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -2332,12 +4006,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A Common Lisp PostgreSQL programming interface",
+            "homepage": "http://marijnhaverbeke.nl/postmodern",
             "id": 591557,
             "language": "Common Lisp",
+            "license": "NOASSERTION",
             "last_commit": "2025-07-24T22:36:05Z",
+            "open_issues": 5,
             "owner": "marijnh",
             "repo": "Postmodern",
-            "stars": 431
+            "stars": 431,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -2348,12 +4027,22 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A DBI-compliant interface to PostgreSQL",
+            "homepage": "https://rpostgres.r-dbi.org",
             "id": 28823976,
             "language": "R",
+            "license": "NOASSERTION",
             "last_commit": "2026-08-09T02:33:50Z",
+            "open_issues": 39,
             "owner": "r-dbi",
             "repo": "RPostgres",
-            "stars": 342
+            "stars": 342,
+            "topics": [
+              "database",
+              "postgres",
+              "postgresql",
+              "r"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -2364,12 +4053,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "PostgreSQL helpers for Clojure projects",
+            "homepage": null,
             "id": 18142669,
             "language": "Clojure",
+            "license": "BSD-2-Clause",
             "last_commit": "2025-03-07T08:23:57Z",
+            "open_issues": 9,
             "owner": "remodoy",
             "repo": "clj-postgresql",
-            "stars": 162
+            "stars": 162,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -2380,12 +4074,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Lua binding for PostgreSQL",
+            "homepage": null,
             "id": 3940618,
             "language": "C",
+            "license": null,
             "last_commit": "2026-02-07T13:44:01Z",
+            "open_issues": 7,
             "owner": "arcapos",
             "repo": "luapgsql",
-            "stars": 120
+            "stars": 120,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -2396,12 +4095,23 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "PostgreSQL client library (libpq) binding",
+            "homepage": null,
             "id": 36494964,
             "language": "C",
+            "license": "BSD-2-Clause",
             "last_commit": "2025-09-04T12:45:46Z",
+            "open_issues": 4,
             "owner": "m6w6",
             "repo": "ext-pq",
-            "stars": 41
+            "stars": 41,
+            "topics": [
+              "asynchronous",
+              "libpq",
+              "pecl",
+              "php",
+              "postgresql"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         }
@@ -2418,12 +4128,38 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "The most popular Kubernetes Operator for PostgreSQL.",
+            "homepage": "https://cloudnative-pg.io",
             "id": 468311851,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-28T15:03:35Z",
+            "open_issues": 430,
             "owner": "cloudnative-pg",
             "repo": "cloudnative-pg",
-            "stars": 9208
+            "stars": 9211,
+            "topics": [
+              "automated-failover",
+              "business-continuity",
+              "database",
+              "database-management",
+              "devops",
+              "disaster-recovery",
+              "failover",
+              "high-availability",
+              "json-logging",
+              "k8s",
+              "kubectl-plugin",
+              "kubernetes",
+              "operator",
+              "postgres",
+              "postgresql",
+              "prometheus-exporter",
+              "replication",
+              "self-healing",
+              "sql",
+              "switchover"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -2434,12 +4170,28 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Postgres operator creates and manages PostgreSQL clusters running in Kubernetes",
+            "homepage": "https://postgres-operator.readthedocs.io/",
             "id": 91074692,
             "language": "Go",
+            "license": "MIT",
             "last_commit": "2026-08-20T17:28:42Z",
+            "open_issues": 538,
             "owner": "zalando",
             "repo": "postgres-operator",
-            "stars": 5229
+            "stars": 5229,
+            "topics": [
+              "cluster",
+              "data-infrastructure",
+              "database-as-a-service",
+              "golang",
+              "kubernetes",
+              "managed-services",
+              "operator",
+              "postgres",
+              "postgres-operator",
+              "postgresql"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -2450,12 +4202,34 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Production PostgreSQL for Kubernetes, from high availability Postgres clusters to full-scale database-as-a-service.",
+            "homepage": "https://access.crunchydata.com/documentation/postgres-operator/v5/",
             "id": 83363132,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-26T00:05:25Z",
+            "open_issues": 167,
             "owner": "CrunchyData",
             "repo": "postgres-operator",
-            "stars": 4443
+            "stars": 4443,
+            "topics": [
+              "data-infrastructure",
+              "database",
+              "database-as-a-service",
+              "database-management",
+              "disaster-recovery",
+              "high-availability",
+              "kubernetes",
+              "kubernetes-operator",
+              "operator",
+              "pgo",
+              "postgres",
+              "postgres-operator",
+              "postgresql",
+              "postgresql-clusters",
+              "postgresql-metrics",
+              "postgresql-monitoring"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -2466,12 +4240,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "StackGres Operator, Full Stack PostgreSQL on Kubernetes // !! Mirror repository of https://gitlab.com/ongresinc/stackgres, only accept Merge Requests there.",
+            "homepage": "https://stackgres.io",
             "id": 272443481,
             "language": "Java",
+            "license": "AGPL-3.0",
             "last_commit": "2026-08-28T09:10:04Z",
+            "open_issues": 1,
             "owner": "ongres",
             "repo": "stackgres",
-            "stars": 1426
+            "stars": 1426,
+            "topics": [
+              "high-availability",
+              "java",
+              "kubernetes",
+              "kubernetes-operator",
+              "postgres",
+              "postgresql"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -2482,12 +4268,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Kubegres is a Kubernetes operator allowing to deploy one or many clusters of PostgreSql instances and manage databases replication, failover and backup.",
+            "homepage": "https://www.kubegres.io",
             "id": 357335905,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2025-01-04T14:29:28Z",
+            "open_issues": 80,
             "owner": "reactive-tech",
             "repo": "kubegres",
-            "stars": 1350
+            "stars": 1350,
+            "topics": [
+              "kubernetes",
+              "kubernetes-operator",
+              "operator",
+              "postgres",
+              "postgres-operator",
+              "postgresql"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -2498,12 +4296,21 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Percona Operator for PostgreSQL",
+            "homepage": "https://www.percona.com/doc/kubernetes-operator-for-postgresql/index.html",
             "id": 344485792,
             "language": "Go",
-            "last_commit": "2026-08-28T14:31:14Z",
+            "license": "NOASSERTION",
+            "last_commit": "2026-08-28T22:36:20Z",
+            "open_issues": 36,
             "owner": "percona",
             "repo": "percona-postgresql-operator",
-            "stars": 382
+            "stars": 383,
+            "topics": [
+              "kubernetes-operator",
+              "percona",
+              "postgresql"
+            ]
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         },
@@ -2514,12 +4321,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "OpenEverest Operator",
+            "homepage": "https://openeverest.io",
             "id": 662091971,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-20T08:15:33Z",
+            "open_issues": 25,
             "owner": "openeverest",
             "repo": "openeverest-operator",
-            "stars": 42
+            "stars": 42,
+            "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
         }
@@ -2538,12 +4350,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Useful PostgreSQL utilities",
+                "homepage": null,
                 "id": 18556127,
                 "language": "Shell",
+                "license": "NOASSERTION",
                 "last_commit": "2026-06-29T11:01:18Z",
+                "open_issues": 6,
                 "owner": "dataegret",
                 "repo": "pg-utils",
-                "stars": 1218
+                "stars": 1218,
+                "topics": []
               },
               "first_seen": "2026-08-28T15:16:37.011Z"
             },
@@ -2554,12 +4371,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Sample databases for postgres",
+                "homepage": "https://www.postgresql.org/ftp/projects/pgFoundry/dbsamples/",
                 "id": 50297057,
                 "language": "PLpgSQL",
+                "license": null,
                 "last_commit": "2023-09-20T14:15:44Z",
+                "open_issues": 1,
                 "owner": "morenoh149",
                 "repo": "postgresDBSamples",
-                "stars": 552
+                "stars": 552,
+                "topics": [
+                  "data-modeling",
+                  "database",
+                  "postgresql",
+                  "sample-databases"
+                ]
               },
               "first_seen": "2026-08-28T15:16:37.011Z"
             },
@@ -2570,12 +4397,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The PostgreSQL Sample Database",
+                "homepage": "https://github.com/xzilla/pagila",
                 "id": 104806449,
                 "language": "PLpgSQL",
+                "license": null,
                 "last_commit": "2026-03-26T17:52:33Z",
+                "open_issues": 1,
                 "owner": "xzilla",
                 "repo": "pagila",
-                "stars": 78
+                "stars": 78,
+                "topics": [
+                  "database",
+                  "hacktoberfest",
+                  "postgresql",
+                  "sample"
+                ]
               },
               "first_seen": "2026-08-28T15:16:37.011Z"
             },
@@ -2586,12 +4423,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A comprehensive SQL syntax cheat sheet for quick reference, covering essential commands, functions, operators, and concepts across various database systems.",
+                "homepage": null,
                 "id": 858758441,
                 "language": null,
+                "license": "MIT",
                 "last_commit": "2026-03-09T15:25:34Z",
+                "open_issues": 0,
                 "owner": "mergisi",
                 "repo": "sql-syntax-cheat-sheet",
-                "stars": 54
+                "stars": 54,
+                "topics": []
               },
               "first_seen": "2026-08-28T15:16:37.011Z"
             }
@@ -2609,12 +4451,30 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "AI,Opensource,Database,Business,Finance,Minds. git clone --depth 1 https://github.com/digoal/blog",
+                "homepage": "https://github.com/digoal/blog/blob/master/README.md",
                 "id": 40081991,
                 "language": "HTML",
-                "last_commit": "2026-08-28T12:55:09Z",
+                "license": "GPL-2.0",
+                "last_commit": "2026-08-29T03:03:47Z",
+                "open_issues": 123,
                 "owner": "digoal",
                 "repo": "blog",
-                "stars": 8567
+                "stars": 8567,
+                "topics": [
+                  "database",
+                  "enterprisedb",
+                  "gpdb",
+                  "greenplum",
+                  "hawq",
+                  "mongodb",
+                  "mysql",
+                  "oracle",
+                  "pg",
+                  "pgsql",
+                  "postgres",
+                  "postgresql"
+                ]
               },
               "first_seen": "2026-08-28T15:16:37.011Z"
             }
@@ -2628,15 +4488,24 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-28T15:16:37.011Z",
+    "last_updated": "2026-08-29T04:12:48.775Z",
     "original_repository_info": {
       "archived": false,
+      "description": "A curated list of awesome PostgreSQL software, libraries, tools and resources, inspired by awesome-mysql",
+      "homepage": "http://dhamaniasad.github.io/awesome-postgres",
       "id": 40072159,
       "language": null,
+      "license": "CC0-1.0",
       "last_commit": "2026-05-21T14:10:48Z",
+      "open_issues": 70,
       "owner": "dhamaniasad",
       "repo": "awesome-postgres",
-      "stars": 12064
+      "stars": 12065,
+      "topics": [
+        "database",
+        "postgres",
+        "postgresql"
+      ]
     },
     "original_repository_sha": "ef88d7b7b11e980c472e26e4c8562b5bb4473086",
     "enhanced_repository": "enhansome/enhansome-postgres",
