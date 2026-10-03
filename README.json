@@ -648,7 +648,7 @@
             "open_issues": 812,
             "owner": "getredash",
             "repo": "redash",
-            "stars": 28830,
+            "stars": 28829,
             "topics": [
               "analytics",
               "athena",
@@ -689,7 +689,7 @@
             "open_issues": 145,
             "owner": "teableio",
             "repo": "teable",
-            "stars": 21856,
+            "stars": 21855,
             "topics": [
               "ai-agent",
               "airtable",
@@ -1097,11 +1097,11 @@
             "id": 1123541397,
             "language": "Rust",
             "license": "MIT",
-            "last_commit": "2026-10-03T05:02:29Z",
+            "last_commit": "2026-10-03T08:45:18Z",
             "open_issues": 8,
             "owner": "riii111",
             "repo": "sabiql",
-            "stars": 312,
+            "stars": 314,
             "topics": [
               "mysql",
               "postgresql",
@@ -1471,7 +1471,7 @@
             "id": 56446422,
             "language": "Go",
             "license": "AGPL-3.0",
-            "last_commit": "2026-10-02T23:22:06Z",
+            "last_commit": "2026-10-03T09:03:51Z",
             "open_issues": 236,
             "owner": "percona",
             "repo": "pmm",
@@ -1792,11 +1792,11 @@
             "id": 660776503,
             "language": "Rust",
             "license": "AGPL-3.0",
-            "last_commit": "2026-10-03T04:31:45Z",
-            "open_issues": 234,
+            "last_commit": "2026-10-03T08:40:20Z",
+            "open_issues": 237,
             "owner": "paradedb",
             "repo": "paradedb",
-            "stars": 9339,
+            "stars": 9342,
             "topics": [
               "aggregations",
               "analytics",
@@ -1834,11 +1834,11 @@
             "id": 660776503,
             "language": "Rust",
             "license": "AGPL-3.0",
-            "last_commit": "2026-10-03T04:31:45Z",
-            "open_issues": 234,
+            "last_commit": "2026-10-03T08:40:20Z",
+            "open_issues": 237,
             "owner": "paradedb",
             "repo": "paradedb",
-            "stars": 9339,
+            "stars": 9342,
             "topics": [
               "aggregations",
               "analytics",
@@ -2013,8 +2013,8 @@
             "id": 37308208,
             "language": "C",
             "license": "NOASSERTION",
-            "last_commit": "2026-10-03T02:07:27Z",
-            "open_issues": 9,
+            "last_commit": "2026-10-03T07:02:49Z",
+            "open_issues": 8,
             "owner": "HypoPG",
             "repo": "hypopg",
             "stars": 1723,
@@ -2124,7 +2124,7 @@
             "id": 15437182,
             "language": "C",
             "license": "NOASSERTION",
-            "last_commit": "2026-10-03T04:39:32Z",
+            "last_commit": "2026-10-03T05:48:09Z",
             "open_issues": 0,
             "owner": "okbob",
             "repo": "plpgsql_check",
@@ -2458,7 +2458,7 @@
             "open_issues": 28,
             "owner": "pgmq",
             "repo": "pgmq",
-            "stars": 5310,
+            "stars": 5311,
             "topics": [
               "message-queue"
             ]
@@ -2481,7 +2481,7 @@
             "open_issues": 11,
             "owner": "timgit",
             "repo": "pg-boss",
-            "stars": 4016,
+            "stars": 4017,
             "topics": [
               "job",
               "node",
@@ -2828,11 +2828,11 @@
             "id": 20787122,
             "language": "Haskell",
             "license": "MIT",
-            "last_commit": "2026-10-02T19:26:50Z",
-            "open_issues": 404,
+            "last_commit": "2026-10-03T08:21:51Z",
+            "open_issues": 405,
             "owner": "PostgREST",
             "repo": "postgrest",
-            "stars": 27692,
+            "stars": 27693,
             "topics": [
               "api",
               "automatic-api",
@@ -2909,7 +2909,7 @@
             "open_issues": 102,
             "owner": "xataio",
             "repo": "pgroll",
-            "stars": 6594,
+            "stars": 6595,
             "topics": [
               "golang",
               "hacktoberfest",
@@ -3100,7 +3100,7 @@
             "open_issues": 18,
             "owner": "dalibo",
             "repo": "pg_activity",
-            "stars": 3052,
+            "stars": 3051,
             "topics": [
               "activity",
               "cli",
@@ -3186,7 +3186,7 @@
             "open_issues": 49,
             "owner": "GreenmaskIO",
             "repo": "greenmask",
-            "stars": 1774,
+            "stars": 1775,
             "topics": [
               "anonymization",
               "backup",
@@ -3796,7 +3796,7 @@
             "open_issues": 7,
             "owner": "ayarotsky",
             "repo": "diesel-guard",
-            "stars": 120,
+            "stars": 121,
             "topics": [
               "cli",
               "code-review",
@@ -4144,7 +4144,7 @@
             "open_issues": 191,
             "owner": "rust-postgres",
             "repo": "rust-postgres",
-            "stars": 4005,
+            "stars": 4006,
             "topics": []
           },
           "first_seen": "2026-08-28T15:16:37.011Z"
@@ -4267,7 +4267,7 @@
             "id": 710091661,
             "language": "Zig",
             "license": "MIT",
-            "last_commit": "2026-10-01T10:09:29Z",
+            "last_commit": "2026-10-03T05:25:45Z",
             "open_issues": 5,
             "owner": "karlseguin",
             "repo": "pg.zig",
@@ -4419,7 +4419,7 @@
             "open_issues": 428,
             "owner": "cloudnative-pg",
             "repo": "cloudnative-pg",
-            "stars": 9393,
+            "stars": 9394,
             "topics": [
               "automated-failover",
               "business-continuity",
@@ -4739,7 +4739,7 @@
                 "language": "HTML",
                 "license": "GPL-2.0",
                 "last_commit": "2026-09-28T01:20:53Z",
-                "open_issues": 164,
+                "open_issues": 166,
                 "owner": "digoal",
                 "repo": "blog",
                 "stars": 8583,
@@ -4770,7 +4770,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-03T05:03:56.986Z",
+    "last_updated": "2026-10-03T09:04:05.118Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome PostgreSQL software, libraries, tools and resources, inspired by awesome-mysql",
@@ -4782,7 +4782,7 @@
       "open_issues": 84,
       "owner": "dhamaniasad",
       "repo": "awesome-postgres",
-      "stars": 12103,
+      "stars": 12104,
       "topics": [
         "database",
         "postgres",
