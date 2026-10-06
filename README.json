@@ -1471,7 +1471,7 @@
             "id": 56446422,
             "language": "Go",
             "license": "AGPL-3.0",
-            "last_commit": "2026-10-06T10:02:35Z",
+            "last_commit": "2026-10-06T10:15:58Z",
             "open_issues": 239,
             "owner": "percona",
             "repo": "pmm",
@@ -2430,7 +2430,7 @@
             "open_issues": 70,
             "owner": "riverqueue",
             "repo": "river",
-            "stars": 5744,
+            "stars": 5745,
             "topics": [
               "background-jobs",
               "go",
@@ -4770,7 +4770,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-06T10:10:13.051Z",
+    "last_updated": "2026-10-06T10:24:53.357Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome PostgreSQL software, libraries, tools and resources, inspired by awesome-mysql",

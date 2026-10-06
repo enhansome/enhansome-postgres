@@ -223,7 +223,7 @@
 
 ### Work Queues
 
-* [river](https://github.com/riverqueue/river) ⭐ 5,744 | 🐛 70 | 🌐 Go | 📅 2026-10-06 - A high-performance job processing system for Go and Postgres.
+* [river](https://github.com/riverqueue/river) ⭐ 5,745 | 🐛 70 | 🌐 Go | 📅 2026-10-06 - A high-performance job processing system for Go and Postgres.
 * [pgmq](https://github.com/pgmq/pgmq) ⭐ 5,318 | 🐛 28 | 🌐 Rust | 📅 2026-09-28 - A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.
 * [pgBoss](https://github.com/timgit/pg-boss) ⭐ 4,017 | 🐛 8 | 🌐 TypeScript | 📅 2026-10-05 - Queueing jobs in Postgres from Node.js like a boss.
 * [BeanQueue](https://github.com/LaunchPlatform/bq) ⭐ 28 | 🐛 8 | 🌐 Python | 📅 2026-09-30 - A Python work queue framework based on SKIP LOCKED, LISTEN and NOTIFY
