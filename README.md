@@ -39,17 +39,17 @@
 
 ### High-Availability
 
-* [Patroni](https://github.com/zalando/patroni) ⭐ 8,818 | 🐛 69 | 🌐 Python | 📅 2026-11-04 - Template for PostgreSQL HA with ZooKeeper or etcd.
-* [Stolon](https://github.com/sorintlab/stolon) ⭐ 4,828 | 🐛 153 | 🌐 Go | 📅 2024-07-08 - PostgreSQL HA based on Consul or etcd, with Kubernetes integration.
-* [autobase](https://github.com/vitabaks/autobase) ⭐ 4,431 | 🐛 28 | 🌐 Jinja | 📅 2026-11-06 - Autobase for PostgreSQL® is an open-source DBaaS that automates the deployment and management of highly available PostgreSQL clusters.
+* [Patroni](https://github.com/zalando/patroni) ⭐ 8,819 | 🐛 70 | 🌐 Python | 📅 2026-11-04 - Template for PostgreSQL HA with ZooKeeper or etcd.
+* [Stolon](https://github.com/sorintlab/stolon) ⭐ 4,829 | 🐛 153 | 🌐 Go | 📅 2024-07-08 - PostgreSQL HA based on Consul or etcd, with Kubernetes integration.
+* [autobase](https://github.com/vitabaks/autobase) ⭐ 4,431 | 🐛 29 | 🌐 Jinja | 📅 2026-11-06 - Autobase for PostgreSQL® is an open-source DBaaS that automates the deployment and management of highly available PostgreSQL clusters.
 * [repmgr](https://github.com/2ndQuadrant/repmgr) ⭐ 1,720 | 🐛 141 | 🌐 C | 📅 2026-11-06 - Open-source tool suite to manage replication and failover in a cluster of PostgreSQL servers.
 * [pg\_auto\_failover](https://github.com/citusdata/pg_auto_failover) ⭐ 1,398 | 🐛 109 | 🌐 C | 📅 2026-10-28 - Postgres extension and service for automated failover and high-availability.
-* [Spock](https://github.com/pgEdge/spock) ⭐ 762 | 🐛 57 | 🌐 C | 📅 2026-11-06 - 100% open-source logical multi-master PostgreSQL replication.
-* [BDR](https://github.com/2ndQuadrant/bdr) ⭐ 359 | 🐛 113 | 🌐 C | 📅 2020-02-20 - BiDirectional Replication - a multimaster replication system for PostgreSQL
+* [Spock](https://github.com/pgEdge/spock) ⭐ 763 | 🐛 56 | 🌐 C | 📅 2026-11-06 - 100% open-source logical multi-master PostgreSQL replication.
+* [BDR](https://github.com/2ndQuadrant/bdr) ⭐ 360 | 🐛 113 | 🌐 C | 📅 2020-02-20 - BiDirectional Replication - a multimaster replication system for PostgreSQL
 * [PAF](https://github.com/ClusterLabs/PAF) ⭐ 351 | 🐛 18 | 🌐 Perl | 📅 2024-06-13 - PostgreSQL Automatic Failover: High-Availibility for Postgres, based on Pacemaker and Corosync.
 * [SkyTools](https://github.com/pgq/skytools-legacy) ⚠️ Archived - Replication tools, including PgQ, a queuing system, and Londiste, a replication system a bit simpler to manage than Slony.
 * [pglookout](https://github.com/aiven/pglookout) ⭐ 193 | 🐛 12 | 🌐 Python | 📅 2026-03-02 - Replication monitoring and failover daemon.
-* [pgrwl](https://github.com/hashmap-kz/pgrwl) ⭐ 184 | 🐛 58 | 🌐 Go | 📅 2026-11-05 - Stream write-ahead logs (WAL) from a PostgreSQL server in real time. A drop-in, container-friendly alternative to pg\_receivewal.
+* [pgrwl](https://github.com/hashmap-kz/pgrwl) ⭐ 185 | 🐛 58 | 🌐 Go | 📅 2026-11-05 - Stream write-ahead logs (WAL) from a PostgreSQL server in real time. A drop-in, container-friendly alternative to pg\_receivewal.
 * [pg-status](https://github.com/krylosov-aa/pg-status) ⭐ 82 | 🐛 0 | 🌐 C | 📅 2026-10-18 - A microservice that provides HTTP endpoints for instantly retrieving the current master host or a replica that meets various criteria.
 * [Slony-I](https://slony.info/) - "Master to multiple slaves" replication system with cascading and failover.
 
@@ -57,10 +57,10 @@
 
 * [wal-g](https://github.com/wal-g/wal-g) ⭐ 4,327 | 🐛 339 | 🌐 Go | 📅 2026-11-05 - The successor of WAL-E rewritten in Go. Currently supports cloud object storage services by AWS (S3), Google Cloud (GCS), Azure, as well as OpenStack Swift, MinIO, and file system storages. Supports block-level incremental backups, offloading backup tasks to a standby server, provides parallelization and throttling options. In addition to Postgres, WAL-G can be used for MySQL and MongoDB databases.
 * [wal-e](https://github.com/wal-e/wal-e) ⭐ 3,470 | 🐛 93 | 🌐 Python | 📅 2023-12-20 (obsolete) - Simple Continuous Archiving for PostgreSQL to S3, Azure, or Swift by Heroku.
-* [pgbackweb](https://github.com/eduardolat/pgbackweb) ⭐ 2,650 | 🐛 102 | 🌐 Go | 📅 2026-09-02 - A Complete Docker-based Postgres backup and maintenance tool with Web UI.
-* [Portabase](https://portabase.io/) - Agent-based platform for logical PostgreSQL backups and restores with decentralized execution and centralized orchestration. ([Source Code](https://github.com/Portabase/portabase) ⭐ 1,869 | 🐛 44 | 🌐 TypeScript | 📅 2026-11-04)
+* [pgbackweb](https://github.com/eduardolat/pgbackweb) ⭐ 2,651 | 🐛 102 | 🌐 Go | 📅 2026-09-02 - A Complete Docker-based Postgres backup and maintenance tool with Web UI.
+* [Portabase](https://portabase.io/) - Agent-based platform for logical PostgreSQL backups and restores with decentralized execution and centralized orchestration. ([Source Code](https://github.com/Portabase/portabase) ⭐ 1,871 | 🐛 43 | 🌐 TypeScript | 📅 2026-11-06)
 * [pghoard](https://github.com/aiven/pghoard) ⭐ 1,428 | 🐛 55 | 🌐 Python | 📅 2026-10-21 - Backup and restore tool for cloud object stores (AWS S3, Azure, Google Cloud, OpenStack Swift).
-* [pg\_probackup](https://github.com/postgrespro/pg_probackup) ⭐ 799 | 🐛 189 | 🌐 Python | 📅 2026-07-12 – A fork of pg\_arman, improved by @PostgresPro, supports incremental backups, backups from replica, multithreaded backup and restore, and anonymous backup without archive command.
+* [pg\_probackup](https://github.com/postgrespro/pg_probackup) ⭐ 800 | 🐛 189 | 🌐 Python | 📅 2026-07-12 – A fork of pg\_arman, improved by @PostgresPro, supports incremental backups, backups from replica, multithreaded backup and restore, and anonymous backup without archive command.
 * [pg\_back](https://github.com/orgrim/pg_back/) ⭐ 566 | 🐛 14 | 🌐 Go | 📅 2026-11-02 - pg\_back is a simple backup script
 * [OmniPITR](https://github.com/omniti-labs/omnipitr) ⭐ 179 | 🐛 3 | 🌐 Perl | 📅 2019-06-25 - Advanced WAL File Management Tools for PostgreSQL.
 * [restoredrill](https://github.com/ahmadpiran/restoredrill) ⭐ 114 | 🐛 0 | 🌐 Go | 📅 2026-11-05 - CLI that restores your PostgreSQL backup into a disposable Docker container and verifies it actually works, producing a JSON report built for SOC 2 / ISO 27001 evidence.
@@ -74,14 +74,14 @@
 
 ### GUI
 
-* [Redash](https://github.com/getredash/redash) ⭐ 28,871 | 🐛 761 | 🌐 TypeScript | 📅 2026-11-04 - Connect to any data source, easily visualize and share your data.
+* [Redash](https://github.com/getredash/redash) ⭐ 28,873 | 🐛 762 | 🌐 TypeScript | 📅 2026-11-07 - Connect to any data source, easily visualize and share your data.
 * [Teable](https://github.com/teableio/teable) ⭐ 21,956 | 🐛 153 | 🌐 TypeScript | 📅 2026-11-06 - A Super fast, Real-time, Professional, Developer friendly, No code database.
-* [pgweb](https://github.com/sosedoff/pgweb) ⭐ 9,549 | 🐛 61 | 🌐 Go | 📅 2026-07-26 - Web-based PostgreSQL database browser written in Go.
-* [Postbird](https://github.com/Paxa/postbird) ⭐ 1,636 | 🐛 30 | 🌐 JavaScript | 📅 2026-11-03 - PostgreSQL Client for macOS.
-* [PgManage](https://github.com/commandprompt/pgmanage) ⭐ 1,033 | 🐛 19 | 🌐 Python | 📅 2026-11-04 - A modern multi-platform Postgres-centric database client/administration tool.
+* [pgweb](https://github.com/sosedoff/pgweb) ⭐ 9,551 | 🐛 61 | 🌐 Go | 📅 2026-07-26 - Web-based PostgreSQL database browser written in Go.
+* [Postbird](https://github.com/Paxa/postbird) ⭐ 1,637 | 🐛 30 | 🌐 JavaScript | 📅 2026-11-03 - PostgreSQL Client for macOS.
+* [PgManage](https://github.com/commandprompt/pgmanage) ⭐ 1,034 | 🐛 19 | 🌐 Python | 📅 2026-11-06 - A modern multi-platform Postgres-centric database client/administration tool.
 * [phpPgAdmin](https://github.com/phppgadmin/phppgadmin) ⭐ 846 | 🐛 74 | 🌐 PHP | 📅 2024-07-30 - The Premier Web Based Administration Tool for PostgreSQL.
 * [temBoard](https://github.com/dalibo/temboard) ⭐ 769 | 🐛 99 | 🌐 Python | 📅 2026-11-06 - Web-based PostgreSQL GUI and monitoring.
-* [Dekart](https://github.com/dekart-xyz/dekart) ⭐ 438 | 🐛 34 | 🌐 JavaScript | 📅 2026-11-04 - Open-source platform to turn PostGIS queries into shareable interactive maps.
+* [Dekart](https://github.com/dekart-xyz/dekart) ⭐ 438 | 🐛 34 | 🌐 JavaScript | 📅 2026-11-07 - Open-source platform to turn PostGIS queries into shareable interactive maps.
 * [OrcaQ](https://github.com/cin12211/orca-q) ⭐ 225 | 🐛 3 | 🌐 TypeScript | 📅 2026-11-05 - A modern, open-source database editor for PostgreSQL, MySQL, Redis, and more. Features an AI assistant, ERD visualizer, schema diff, and visual role management.
 * [PgStudio](https://github.com/dev-asterix/PgStudio) ⭐ 14 | 🐛 3 | 🌐 TypeScript | 📅 2026-11-02 - Open-source VS Code / Open VSX extension for PostgreSQL management with SQL notebooks, AI assistant, Easy to use code snippets and Full-fledged DBMS with real-time monitoring dashboard.
 * [1bench](https://1bench.dev/postgresql) - Native cross-platform GUI with first-class Postgres support alongside Redis, Elasticsearch, ClickHouse, Qdrant, and more (Commercial Software).
@@ -125,15 +125,15 @@
 ### Distributions
 
 * [Postgres.app](https://postgresapp.com/) - The Easiest Way to Get Started with PostgreSQL on macOS.
-* [Pigsty](https://github.com/Vonng/pigsty) ⭐ 5,912 | 🐛 34 | 🌐 Shell | 📅 2026-11-06 - Battery-Included Open-Source Distribution for PostgreSQL with ultimate observability & Database-as-Code toolbox for developers.
+* [Pigsty](https://github.com/Vonng/pigsty) ⭐ 5,914 | 🐛 27 | 🌐 Shell | 📅 2026-11-06 - Battery-Included Open-Source Distribution for PostgreSQL with ultimate observability & Database-as-Code toolbox for developers.
 
 ### CLI
 
-* [pgcli](https://github.com/dbcli/pgcli) ⭐ 13,434 | 🐛 52 | 🌐 Python | 📅 2026-11-04 - Postgres CLI with autocompletion and syntax highlighting
-* [atlas](https://github.com/ariga/atlas) ⭐ 8,806 | 🐛 279 | 🌐 Go | 📅 2026-11-05 - Atlas is a tool for managing and migrating database schemas using modern DevOps principles.
+* [pgcli](https://github.com/dbcli/pgcli) ⭐ 13,434 | 🐛 55 | 🌐 Python | 📅 2026-11-04 - Postgres CLI with autocompletion and syntax highlighting
+* [atlas](https://github.com/ariga/atlas) ⭐ 8,807 | 🐛 280 | 🌐 Go | 📅 2026-11-05 - Atlas is a tool for managing and migrating database schemas using modern DevOps principles.
 * [schemaspy](https://github.com/schemaspy/schemaspy) ⭐ 3,736 | 🐛 303 | 🌐 HTML | 📅 2026-03-05 - SchemaSpy is a JAVA JDBC-compliant tool for generating your database to HTML documentation, including Entity Relationship diagrams
 * [pg-schema-diff](https://github.com/stripe/pg-schema-diff) ⭐ 901 | 🐛 97 | 🌐 Go | 📅 2026-08-06 - CLI (and Golang library) for diffing Postgres schemas and generating SQL migrations with minimal locking.
-* [pgsh](https://github.com/sastraxi/pgsh) ⭐ 652 | 🐛 34 | 🌐 JavaScript | 📅 2023-01-11 - Branch your PostgreSQL Database like Git
+* [pgsh](https://github.com/sastraxi/pgsh) ⭐ 653 | 🐛 34 | 🌐 JavaScript | 📅 2023-01-11 - Branch your PostgreSQL Database like Git
 * [sabiql](https://github.com/riii111/sabiql) ⭐ 320 | 🐛 8 | 🌐 Rust | 📅 2026-10-31 - A fast, driver-less TUI to browse, query, and edit PostgreSQL databases.
 * [squix](https://github.com/eduardofuncao/squix) ⭐ 275 | 🐛 12 | 🌐 Go | 📅 2026-11-04 - SQL command-line client with query management and interactive results.
 * [psql2csv](https://github.com/fphilipe/psql2csv) ⭐ 186 | 🐛 2 | 🌐 Shell | 📅 2022-02-23 - Run a query in psql and output the result as CSV
@@ -148,32 +148,32 @@
 ### Server
 
 * [AgensGraph](https://bitnine.net/) - Powerful graph database based on the PostgreSQL.
-* [Apache Cloudberry](https://github.com/apache/cloudberry) ⭐ 1,438 | 🐛 288 | 🌐 C | 📅 2026-11-06 - And MPP PostgreSQL fork. Open source alternative to Greenplum Database.
+* [Apache Cloudberry](https://github.com/apache/cloudberry) ⭐ 1,439 | 🐛 284 | 🌐 C | 📅 2026-11-07 - And MPP PostgreSQL fork. Open source alternative to Greenplum Database.
 * [FerretDB](https://www.ferretdb.io) - A truly Open Source MongoDB alternative on top of PostgreSQL.
 * [Postgres-XL](https://www.postgres-xl.org/) - Scalable Open Source PostgreSQL-based Database Cluster.
 * [YugabyteDB](https://yugabyte.com/) - Open Source Distributed SQL using  a fork of PostgreSQL on top of distributed storage and transaction
 
 ### Security
 
-* [Acra](https://github.com/cossacklabs/acra) ⭐ 1,495 | 🐛 29 | 🌐 Go | 📅 2026-04-23 - SQL database security suite: proxy for data protection with transparent "on the fly" data encryption, SQL firewall (SQL injections prevention), intrusion detection system.
+* [Acra](https://github.com/cossacklabs/acra) ⭐ 1,497 | 🐛 29 | 🌐 Go | 📅 2026-04-23 - SQL database security suite: proxy for data protection with transparent "on the fly" data encryption, SQL firewall (SQL injections prevention), intrusion detection system.
 * [pgrls](https://github.com/pgrls/pgrls) ⭐ 29 | 🐛 5 | 🌐 Python | 📅 2026-11-06 - static analyzer for row-level security policies; 36 rules across security, performance, and hygiene with 10 mechanically auto-fixable; includes a semantic policy-diff command for CI gating.
 
 ### Monitoring
 
-* [coroot](https://github.com/coroot/coroot) ⭐ 8,002 | 🐛 140 | 🌐 Go | 📅 2026-11-05 - Coroot is an open-source APM & Observability tool, a DataDog and NewRelic alternative. Powered by eBPF for rapid insights into system performance.
+* [coroot](https://github.com/coroot/coroot) ⭐ 8,002 | 🐛 141 | 🌐 Go | 📅 2026-11-05 - Coroot is an open-source APM & Observability tool, a DataDog and NewRelic alternative. Powered by eBPF for rapid insights into system performance.
 * [postgres\_exporter](https://github.com/wrouesnel/postgres_exporter) ⭐ 3,646 | 🐛 201 | 🌐 Go | 📅 2026-10-29 - Prometheus exporter for PostgreSQL server metrics.
 * [dexter](https://github.com/ankane/dexter) ⭐ 2,096 | 🐛 2 | 🌐 Ruby | 📅 2026-11-01 - The automatic indexer for Postgres. Detects slow queries and creates indexes if configured to do so.
 * [pgwatch2](https://github.com/cybertec-postgresql/pgwatch2) ⚠️ Archived - Flexible and easy to get started PostgreSQL metrics monitor focusing on Grafana dashboards.
-* [PMM](https://github.com/percona/pmm) ⭐ 1,131 | 🐛 214 | 🌐 Go | 📅 2026-11-06 - Percona Monitoring and Management (PMM) is a Free and Open Source platform for monitoring and managing PostgreSQL, MySQL, and MongoDB.
+* [PMM](https://github.com/percona/pmm) ⭐ 1,131 | 🐛 213 | 🌐 Go | 📅 2026-11-07 - Percona Monitoring and Management (PMM) is a Free and Open Source platform for monitoring and managing PostgreSQL, MySQL, and MongoDB.
 * [Pome](https://github.com/rach/pome) ⭐ 1,071 | 🐛 15 | 🌐 Go | 📅 2020-09-04 - Pome stands for PostgreSQL Metrics. Pome is a PostgreSQL Metrics Dashboard to keep track of the health of your database.
 * [Check\_postgres](https://github.com/bucardo/check_postgres) ⭐ 604 | 🐛 103 | 🌐 Perl | 📅 2025-01-02 - Nagios check\_postgres plugin for checking status of PostgreSQL databases.
 * [pg\_view](https://github.com/zalando/pg_view) ⭐ 506 | 🐛 28 | 🌐 Python | 📅 2023-03-25 - Open-source command-line tool that shows global system stats, per-partition information, memory stats and other information.
 * [pg\_exporter](https://github.com/Vonng/pg_exporter) ⭐ 366 | 🐛 8 | 🌐 Go | 📅 2026-10-23 - Fully customizable Prometheus exporter for PostgreSQL & Pgbouncer with fine-grained execution control.
 * [pg\_ash](https://github.com/NikolayS/pg_ash) ⭐ 255 | 🐛 88 | 🌐 PLpgSQL | 📅 2026-11-04 - Active Session History for PostgreSQL. Samples pg\_stat\_activity once per second via pg\_cron, stores encoded snapshots, and provides 32 SQL functions for wait event analysis. Pure SQL, no extensions, works on managed providers (RDS, Cloud SQL, Supabase, etc.).
-* [check\_pgactivity](https://github.com/OPMDG/check_pgactivity) ⭐ 188 | 🐛 30 | 🌐 Perl | 📅 2026-11-02 - check\_pgactivity is designed to monitor PostgreSQL clusters from Nagios. It offers many options to measure and monitor useful performance metrics.
+* [check\_pgactivity](https://github.com/OPMDG/check_pgactivity) ⭐ 188 | 🐛 29 | 🌐 Perl | 📅 2026-11-02 - check\_pgactivity is designed to monitor PostgreSQL clusters from Nagios. It offers many options to measure and monitor useful performance metrics.
 * [libzbxpgsql](https://github.com/cavaliercoder/libzbxpgsql) ⭐ 155 | 🐛 51 | 🌐 C | 📅 2023-11-14 - Comprehensive PostgreSQL monitoring module for Zabbix.
 * [Instrumental](https://github.com/Instrumental/instrumentald) ⚠️ Archived - Real-time performance monitoring, including [pre-made graphs](https://instrumentalapp.com/docs/instrumentald/postgresql#suggested-graphs) for ease of setup (Commercial Software)
-* [pgwd](https://github.com/hrodrig/pgwd) ⭐ 8 | 🐛 0 | 🌐 Go | 📅 2026-09-22 - monitors PostgreSQL connection usage and stale sessions, with threshold alerts, Prometheus metrics, and multiple notification backends.
+* [pgwd](https://github.com/hrodrig/pgwd) ⭐ 8 | 🐛 1 | 🌐 Go | 📅 2026-09-22 - monitors PostgreSQL connection usage and stale sessions, with threshold alerts, Prometheus metrics, and multiple notification backends.
 * [pgvitals](https://github.com/pgvitals/pgvitals) ⭐ 7 | 🐛 8 | 🌐 Python | 📅 2026-07-13 - collection of 40 read-only diagnostic queries for spotting common performance problems (slow queries, bloat, vacuum lag, lock contention, replication lag, wraparound risk) using only the standard system catalog with no extensions required, plus an optional CLI that aggregates them into a 0-100 health score.
 * [Datadog](https://www.datadoghq.com/product/database-monitoring/) - SaaS monitoring that collects and visualizes metrics, queries, and explain plans, and sends alerts when problems are encountered (Commercial Software).
 * [myDBA](https://mydba.dev) - PostgreSQL performance monitoring with 75+ automated health checks, cluster-aware index advisor, query analysis, and extension monitoring for TimescaleDB, pgvector, and PostGIS (Commercial Software).
@@ -185,20 +185,20 @@
 
 ### Extensions
 
-* [Citus](https://github.com/citusdata/citus) ⭐ 12,846 | 🐛 455 | 🌐 C | 📅 2026-11-06 - Scalable PostgreSQL cluster for real-time workloads.
-* [pg\_search](https://github.com/paradedb/paradedb) ⭐ 9,495 | 🐛 274 | 🌐 Rust | 📅 2026-11-06 - pg\_search is a PostgreSQL extension that enables full-text search over SQL tables using the BM25 algorithm, the state-of-the-art ranking function for full-text search.
-* [ParadeDB](https://github.com/paradedb/paradedb) ⭐ 9,495 | 🐛 274 | 🌐 Rust | 📅 2026-11-06 -  Postgres for Search and Analytics
-* [AGE](https://github.com/apache/age) ⭐ 4,931 | 🐛 262 | 🌐 C | 📅 2026-11-04 - Adds fully-functional graph database support including Cypher queries.
+* [Citus](https://github.com/citusdata/citus) ⭐ 12,848 | 🐛 456 | 🌐 C | 📅 2026-11-06 - Scalable PostgreSQL cluster for real-time workloads.
+* [pg\_search](https://github.com/paradedb/paradedb) ⭐ 9,497 | 🐛 268 | 🌐 Rust | 📅 2026-11-07 - pg\_search is a PostgreSQL extension that enables full-text search over SQL tables using the BM25 algorithm, the state-of-the-art ranking function for full-text search.
+* [ParadeDB](https://github.com/paradedb/paradedb) ⭐ 9,497 | 🐛 268 | 🌐 Rust | 📅 2026-11-07 -  Postgres for Search and Analytics
+* [AGE](https://github.com/apache/age) ⭐ 4,932 | 🐛 261 | 🌐 C | 📅 2026-11-04 - Adds fully-functional graph database support including Cypher queries.
 * [zomboDB](https://github.com/zombodb/zombodb) ⚠️ Archived - Extension that enables efficient full-text searching via the use of indexes backed by Elasticsearch.
 * [pg\_cron](https://github.com/citusdata/pg_cron) ⭐ 3,918 | 🐛 135 | 🌐 C | 📅 2026-09-08 - Run periodic jobs in PostgreSQL.
 * [pg\_partman](https://github.com/pgpartman/pg_partman) ⭐ 2,850 | 🐛 54 | 🌐 PLpgSQL | 📅 2026-11-05 - Partition management extension for PostgreSQL.
 * [cstore\_fdw](https://github.com/citusdata/cstore_fdw) ⭐ 1,781 | 🐛 69 | 🌐 C | 📅 2021-03-08 - Columnar store for analytics with PostgreSQL.
-* [HypoPG](https://github.com/HypoPG/hypopg) ⭐ 1,750 | 🐛 8 | 🌐 C | 📅 2026-11-01 - HypoPG provides hypothetical/virtual indexes feature.
-* [pgRouting](https://github.com/pgRouting/pgrouting) ⭐ 1,446 | 🐛 71 | 🌐 C++ | 📅 2026-11-02 - pgRouting extends the PostGIS/PostgreSQL geospatial database to provide geospatial routing and other network analysis functionality.
+* [HypoPG](https://github.com/HypoPG/hypopg) ⭐ 1,750 | 🐛 7 | 🌐 C | 📅 2026-11-07 - HypoPG provides hypothetical/virtual indexes feature.
+* [pgRouting](https://github.com/pgRouting/pgrouting) ⭐ 1,445 | 🐛 67 | 🌐 C++ | 📅 2026-11-07 - pgRouting extends the PostGIS/PostgreSQL geospatial database to provide geospatial routing and other network analysis functionality.
 * [pglogical](https://github.com/2ndQuadrant/pglogical) ⭐ 1,244 | 🐛 191 | 🌐 C | 📅 2026-07-28 - Extension that provides logical streaming replication.
 * [pg\_shard](https://github.com/citusdata/pg_shard) ⭐ 1,060 | 🐛 38 | 🌐 C | 📅 2016-08-03 - Extension to scale out real-time reads and writes.
 * [plpgsql\_check](https://github.com/okbob/plpgsql_check) ⭐ 785 | 🐛 1 | 🌐 C | 📅 2026-11-05 - Extension that allows to check plpgsql source code.
-* [pg\_squeeze](https://github.com/cybertec-postgresql/pg_squeeze) ⭐ 703 | 🐛 2 | 🌐 C | 📅 2026-09-22 - An extension for automatic bloat cleanup with minimal locking.
+* [pg\_squeeze](https://github.com/cybertec-postgresql/pg_squeeze) ⭐ 703 | 🐛 1 | 🌐 C | 📅 2026-11-06 - An extension for automatic bloat cleanup with minimal locking.
 * [pg\_stat\_monitor](https://github.com/percona/pg_stat_monitor) ⭐ 593 | 🐛 4 | 🌐 Perl | 📅 2026-11-03 - Query Performance Monitoring tool for PostgreSQL.
 * [pgMemento](https://github.com/pgMemento/pgMemento) ⭐ 415 | 🐛 11 | 🌐 PLpgSQL | 📅 2026-04-27 - Provides an audit trail for your data inside a PostgreSQL database using triggers and server-side functions written in PL/pgSQL.
 * [pgcat](https://github.com/kingluo/pgcat) ⭐ 387 | 🐛 1 | 🌐 Go | 📅 2024-09-26 - Enhanced PostgreSQL logical replication
@@ -229,9 +229,9 @@
 
 ### Work Queues
 
-* [river](https://github.com/riverqueue/river) ⭐ 5,866 | 🐛 51 | 🌐 Go | 📅 2026-11-05 - A high-performance job processing system for Go and Postgres.
-* [pgmq](https://github.com/pgmq/pgmq) ⭐ 5,380 | 🐛 29 | 🌐 PLpgSQL | 📅 2026-10-20 - A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.
-* [pgBoss](https://github.com/timgit/pg-boss) ⭐ 4,126 | 🐛 17 | 🌐 TypeScript | 📅 2026-11-05 - Queueing jobs in Postgres from Node.js like a boss.
+* [river](https://github.com/riverqueue/river) ⭐ 5,869 | 🐛 51 | 🌐 Go | 📅 2026-11-06 - A high-performance job processing system for Go and Postgres.
+* [pgmq](https://github.com/pgmq/pgmq) ⭐ 5,388 | 🐛 29 | 🌐 PLpgSQL | 📅 2026-10-20 - A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.
+* [pgBoss](https://github.com/timgit/pg-boss) ⭐ 4,128 | 🐛 17 | 🌐 TypeScript | 📅 2026-11-07 - Queueing jobs in Postgres from Node.js like a boss.
 * [BeanQueue](https://github.com/LaunchPlatform/bq) ⭐ 28 | 🐛 8 | 🌐 Python | 📅 2026-09-30 - A Python work queue framework based on SKIP LOCKED, LISTEN and NOTIFY
 * [dbos](https://www.dbos.dev/) - Durable workflows in Typescript and Python
 * [Graphile Worker](https://worker.graphile.org) - A high performance job queue for PostgreSQL, written in Node.js
@@ -240,10 +240,10 @@
 ### Optimization
 
 * [PgHero](https://github.com/ankane/pghero) ⭐ 8,950 | 🐛 5 | 🌐 Ruby | 📅 2026-10-22 - PostgreSQL insights made easy.
-* [PEV2](https://github.com/dalibo/pev2) ⭐ 3,613 | 🐛 66 | 🌐 TypeScript | 📅 2026-11-03 - Online Postgres Explain Visualizer.
-* [pgtune](https://github.com/le0pard/pgtune) ⭐ 2,759 | 🐛 0 | 🌐 JavaScript | 📅 2026-11-06 - Online version of PostgreSQL configuration wizard.
+* [PEV2](https://github.com/dalibo/pev2) ⭐ 3,613 | 🐛 67 | 🌐 TypeScript | 📅 2026-11-03 - Online Postgres Explain Visualizer.
+* [pgtune](https://github.com/le0pard/pgtune) ⭐ 2,760 | 🐛 0 | 🌐 JavaScript | 📅 2026-11-06 - Online version of PostgreSQL configuration wizard.
 * [pg\_flame](https://github.com/mgartner/pg_flame) ⭐ 1,622 | 🐛 2 | 🌐 Go | 📅 2020-01-13 - A flamegraph generator for query plans.
-* [pgtune](https://github.com/gregs1104/pgtune/) ⭐ 1,088 | 🐛 12 | 🌐 Python | 📅 2021-08-17 - PostgreSQL configuration wizard.
+* [pgtune](https://github.com/gregs1104/pgtune/) ⭐ 1,087 | 🐛 12 | 🌐 Python | 📅 2021-08-17 - PostgreSQL configuration wizard.
 * [TimescaleDB Tune](https://github.com/timescale/timescaledb-tune) ⭐ 510 | 🐛 20 | 🌐 Go | 📅 2026-10-25 - a program for tuning a TimescaleDB database to perform its best based on the host's resources such as memory and number of CPUs.
 * [aqo](https://github.com/postgrespro/aqo) ⭐ 501 | 🐛 9 | 🌐 C | 📅 2026-06-27 - Adaptive query optimization for PostgreSQL.
 * [pg\_web\_stats](https://github.com/kirs/pg_web_stats) ⭐ 97 | 🐛 3 | 🌐 Ruby | 📅 2018-10-14 - Web UI to view pg\_stat\_statements.
@@ -257,19 +257,19 @@
 
 ### Utilities
 
-* [Hasura GraphQL Engine](https://github.com/hasura/graphql-engine) ⭐ 32,125 | 🐛 2,356 | 🌐 TypeScript | 📅 2026-11-06 - Blazing fast, instant realtime GraphQL APIs on Postgres with fine grained access control, also trigger webhooks on database events.
-* [PostgREST](https://github.com/PostgREST/postgrest) ⭐ 27,742 | 🐛 413 | 🌐 Haskell | 📅 2026-11-06 - Serves a fully RESTful API from any existing PostgreSQL database.
+* [Hasura GraphQL Engine](https://github.com/hasura/graphql-engine) ⭐ 32,124 | 🐛 2,356 | 🌐 TypeScript | 📅 2026-11-06 - Blazing fast, instant realtime GraphQL APIs on Postgres with fine grained access control, also trigger webhooks on database events.
+* [PostgREST](https://github.com/PostgREST/postgrest) ⭐ 27,745 | 🐛 415 | 🌐 Haskell | 📅 2026-11-06 - Serves a fully RESTful API from any existing PostgreSQL database.
 * [PostGraphile](https://github.com/graphile/postgraphile) ⭐ 12,934 | 🐛 181 | 🌐 TypeScript | 📅 2026-11-06 - Instant GraphQL API or GraphQL schema for your PostgreSQL database
 * [pgroll](https://github.com/xataio/pgroll) ⭐ 6,615 | 🐛 105 | 🌐 Go | 📅 2026-11-02 - Zero-downtime, reversible, schema migrations for Postgres
-* [pgloader](https://github.com/dimitri/pgloader) ⭐ 6,557 | 🐛 37 | 🌐 Common Lisp | 📅 2026-09-14 - Loads data into PostgreSQL using the COPY streaming protocol, and does so with separate threads for reading and writing data.
-* [pREST](https://github.com/prest/prest) ⭐ 4,630 | 🐛 154 | 🌐 Go | 📅 2026-11-06 - Serve a RESTful API from any PostgreSQL database (Golang)
-* [pgbadger](https://github.com/darold/pgbadger) ⭐ 4,072 | 🐛 15 | 🌐 Perl | 📅 2026-11-03 - Fast PostgreSQL Log Analyzer.
+* [pgloader](https://github.com/dimitri/pgloader) ⭐ 6,558 | 🐛 37 | 🌐 Common Lisp | 📅 2026-09-14 - Loads data into PostgreSQL using the COPY streaming protocol, and does so with separate threads for reading and writing data.
+* [pREST](https://github.com/prest/prest) ⭐ 4,630 | 🐛 158 | 🌐 Go | 📅 2026-11-06 - Serve a RESTful API from any PostgreSQL database (Golang)
+* [pgbadger](https://github.com/darold/pgbadger) ⭐ 4,073 | 🐛 15 | 🌐 Perl | 📅 2026-11-03 - Fast PostgreSQL Log Analyzer.
 * [pgsync](https://github.com/ankane/pgsync) ⭐ 3,482 | 🐛 15 | 🌐 Ruby | 📅 2026-10-29 - Tool to sync PostgreSQL data to your local machine.
 * [sqitch](https://github.com/sqitchers/sqitch) ⭐ 3,177 | 🐛 83 | 🌐 Perl | 📅 2026-09-26 - Tool for managing versioned schema deployment
 * [pg\_activity](https://github.com/dalibo/pg_activity) ⭐ 3,055 | 🐛 11 | 🌐 Python | 📅 2026-11-05 - top like application for PostgreSQL server activity monitoring.
 * [migra](https://github.com/djrobstep/migra) ⭐ 3,048 | 🐛 88 | 🌐 Python | 📅 2025-08-25 - Like diff but for Postgres schemas.
 * [sqlcheck](https://github.com/jarulraj/sqlcheck) ⭐ 2,521 | 🐛 14 | 🌐 C++ | 📅 2024-02-21 - Automatically detects common SQL anti-patterns. Such anti-patterns often slow down queries. Addressing them will, therefore, help accelerate queries.
-* [Greenmask](https://github.com/GreenmaskIO/greenmask) ⭐ 1,802 | 🐛 60 | 🌐 Go | 📅 2026-10-29 - Database anonymization and synthetic data generation tool for MySQL and PostgreSQL.
+* [Greenmask](https://github.com/GreenmaskIO/greenmask) ⭐ 1,803 | 🐛 68 | 🌐 Go | 📅 2026-11-06 - Database anonymization and synthetic data generation tool for MySQL and PostgreSQL.
 * [pgCenter](https://github.com/lesovsky/pgcenter) ⭐ 1,632 | 🐛 3 | 🌐 Go | 📅 2026-09-10 - Provides convenient interface to various statistics, management task, reloading services, viewing log files and canceling or terminating database backends.
 * [ERAlchemy](https://github.com/Alexis-benoist/eralchemy) ⭐ 1,433 | 🐛 15 | 🌐 Python | 📅 2026-05-05 - ERAlchemy generates Entity Relation (ER) diagram from databases.
 * [pg\_timetable](https://github.com/cybertec-postgresql/pg_timetable) ⭐ 1,407 | 🐛 3 | 🌐 Go | 📅 2026-11-04 - Advanced job scheduler for PostgreSQL.
@@ -318,12 +318,12 @@
 
 ### Language bindings
 
-* Node: [node-postgres](https://github.com/brianc/node-postgres) ⭐ 13,230 | 🐛 582 | 🌐 JavaScript | 📅 2026-10-23, [pg-promise](https://github.com/vitaly-t/pg-promise) ⭐ 3,549 | 🐛 0 | 🌐 JavaScript | 📅 2026-08-20, [pogi](https://github.com/holdfenytolvaj/pogi) ⭐ 137 | 🐛 15 | 🌐 TypeScript | 📅 2026-10-09, [slonik](https://github.com/gajus/slonik) ⭐ 4,936 | 🐛 2 | 🌐 TypeScript | 📅 2026-11-06, [postgres](https://github.com/porsager/postgres) ⭐ 8,753 | 🐛 0 | 🌐 JavaScript | 📅 2026-11-05
-* Go: [pq](https://github.com/lib/pq) ⭐ 9,971 | 🐛 54 | 🌐 Go | 📅 2026-08-20, [pgx](https://github.com/jackc/pgx) ⭐ 14,383 | 🐛 224 | 🌐 Go | 📅 2026-11-05, [go-pg](https://github.com/go-pg/pg) ⭐ 5,779 | 🐛 124 | 🌐 Go | 📅 2026-07-10
-* Rust: [rust-postgresql](https://github.com/sfackler/rust-postgres) ⭐ 4,031 | 🐛 202 | 🌐 Rust | 📅 2026-10-03, [pgx](https://github.com/tcdi/pgx) ⭐ 4,823 | 🐛 343 | 🌐 Rust | 📅 2026-10-30, [wtx](https://github.com/c410-f3r/wtx) ⭐ 405 | 🐛 5 | 🌐 Rust | 📅 2026-11-05
-* .Net/.Net Core: [Npgsql](https://github.com/npgsql/npgsql) ⭐ 3,749 | 🐛 281 | 🌐 C# | 📅 2026-11-03
+* Node: [node-postgres](https://github.com/brianc/node-postgres) ⭐ 13,231 | 🐛 583 | 🌐 JavaScript | 📅 2026-10-23, [pg-promise](https://github.com/vitaly-t/pg-promise) ⭐ 3,549 | 🐛 0 | 🌐 JavaScript | 📅 2026-08-20, [pogi](https://github.com/holdfenytolvaj/pogi) ⭐ 137 | 🐛 15 | 🌐 TypeScript | 📅 2026-10-09, [slonik](https://github.com/gajus/slonik) ⭐ 4,936 | 🐛 2 | 🌐 TypeScript | 📅 2026-11-06, [postgres](https://github.com/porsager/postgres) ⭐ 8,754 | 🐛 1 | 🌐 JavaScript | 📅 2026-11-05
+* Go: [pq](https://github.com/lib/pq) ⭐ 9,970 | 🐛 54 | 🌐 Go | 📅 2026-08-20, [pgx](https://github.com/jackc/pgx) ⭐ 14,384 | 🐛 224 | 🌐 Go | 📅 2026-11-05, [go-pg](https://github.com/go-pg/pg) ⭐ 5,779 | 🐛 124 | 🌐 Go | 📅 2026-07-10
+* Rust: [rust-postgresql](https://github.com/sfackler/rust-postgres) ⭐ 4,032 | 🐛 202 | 🌐 Rust | 📅 2026-10-03, [pgx](https://github.com/tcdi/pgx) ⭐ 4,823 | 🐛 343 | 🌐 Rust | 📅 2026-10-30, [wtx](https://github.com/c410-f3r/wtx) ⭐ 406 | 🐛 5 | 🌐 Rust | 📅 2026-11-07
+* .Net/.Net Core: [Npgsql](https://github.com/npgsql/npgsql) ⭐ 3,749 | 🐛 279 | 🌐 C# | 📅 2026-11-06
 * TypeScript: [zapatos](https://github.com/jawj/zapatos) ⭐ 1,402 | 🐛 51 | 🌐 TypeScript | 📅 2025-09-19
-* Elixir: [postgrex](https://github.com/elixir-ecto/postgrex) ⭐ 1,214 | 🐛 4 | 🌐 Elixir | 📅 2026-10-31
+* Elixir: [postgrex](https://github.com/elixir-ecto/postgrex) ⭐ 1,215 | 🐛 4 | 🌐 Elixir | 📅 2026-10-31
 * Ruby: [pg](https://github.com/ged/ruby-pg) ⭐ 870 | 🐛 18 | 🌐 C | 📅 2026-10-31
 * Zig: [pg.zig](https://github.com/karlseguin/pg.zig) ⭐ 605 | 🐛 8 | 🌐 Zig | 📅 2026-11-06, [qail-zig](https://github.com/qail-io/qail-zig) ⭐ 6 | 🐛 1 | 🌐 Zig | 📅 2026-09-19
 * Common Lisp: [Postmodern](https://github.com/marijnh/Postmodern) ⭐ 436 | 🐛 5 | 🌐 Common Lisp | 📅 2025-07-24
@@ -363,15 +363,15 @@
 * [citusdata/citus](https://hub.docker.com/r/citusdata/citus/) - Citus official images with citus extensions. Based on the official Postgres container.
 * [mdillon/postgis](https://hub.docker.com/r/mdillon/postgis/) - PostGIS 2.3 on Postgres 9. Based on the official Postgres container.
 * [paradedb/paradedb](https://hub.docker.com/r/paradedb/paradedb/) - ParadeDB is Postgres for Search and Analytics. Based on the official Postgres container with pg\_search extension.
-* [pglayers](https://github.com/pglayers/pglayers) ⭐ 173 | 🐛 5 | 🌐 Dockerfile | 📅 2026-11-05 - Pre-built PostgreSQL extensions as composable Docker layers. 50+ extensions, ready-to-use combined images (full, Azure-compatible).
+* [pglayers](https://github.com/pglayers/pglayers) ⭐ 173 | 🐛 5 | 🌐 Dockerfile | 📅 2026-11-07 - Pre-built PostgreSQL extensions as composable Docker layers. 50+ extensions, ready-to-use combined images (full, Azure-compatible).
 * [postgres](https://hub.docker.com/_/postgres/) -  Official postgres container (from Docker)
 
 ### Kubernetes
 
-* [CloudNativePG operator](https://github.com/cloudnative-pg/cloudnative-pg) ⭐ 9,553 | 🐛 451 | 🌐 Go | 📅 2026-11-06 - A comprehensive platform designed to seamlessly manage PostgreSQL databases within Kubernetes environments.
-* [Zalando Operator](https://github.com/zalando/postgres-operator) ⭐ 5,272 | 🐛 565 | 🌐 Go | 📅 2026-11-06 - Creates and manages PostgreSQL clusters running in Kubernetes.
-* [Crunchy Operator](https://github.com/CrunchyData/postgres-operator) ⭐ 4,458 | 🐛 173 | 🌐 Go | 📅 2026-10-21 - Production PostgreSQL for Kubernetes, from high availability Postgres clusters to full-scale database-as-a-service.
-* [StackGres Operator](https://github.com/ongres/stackgres/) ⭐ 1,444 | 🐛 1 | 🌐 Java | 📅 2026-11-04 -  Full Stack PostgreSQL on Kubernetes.
+* [CloudNativePG operator](https://github.com/cloudnative-pg/cloudnative-pg) ⭐ 9,558 | 🐛 445 | 🌐 Go | 📅 2026-11-07 - A comprehensive platform designed to seamlessly manage PostgreSQL databases within Kubernetes environments.
+* [Zalando Operator](https://github.com/zalando/postgres-operator) ⭐ 5,272 | 🐛 567 | 🌐 Go | 📅 2026-11-06 - Creates and manages PostgreSQL clusters running in Kubernetes.
+* [Crunchy Operator](https://github.com/CrunchyData/postgres-operator) ⭐ 4,458 | 🐛 173 | 🌐 Go | 📅 2026-11-06 - Production PostgreSQL for Kubernetes, from high availability Postgres clusters to full-scale database-as-a-service.
+* [StackGres Operator](https://github.com/ongres/stackgres/) ⭐ 1,444 | 🐛 1 | 🌐 Java | 📅 2026-11-06 -  Full Stack PostgreSQL on Kubernetes.
 * [Kubegres Operator](https://github.com/reactive-tech/kubegres) ⭐ 1,351 | 🐛 80 | 🌐 Go | 📅 2025-01-04 - Kubegres is a Kubernetes operator allowing to deploy one or many clusters of PostgreSql instances and manage databases replication, failover and backup.
 * [Percona PostgreSQL Operator](https://github.com/percona/percona-postgresql-operator) ⭐ 387 | 🐛 58 | 🌐 Go | 📅 2026-11-05 - Percona Operator for PostgreSQL based on Crunchy Data operator.
 * [Percona Everest Operator](https://github.com/percona/everest-operator) ⭐ 42 | 🐛 29 | 🌐 Go | 📅 2026-10-13 - Everest Operator is a Kubernetes Operator responsible for managing the lifecycle of MySQL, MongoDB, and PostgreSQL databases. It leverages Percona's Kubernetes Operators for MySQL, MongoDB, and PostgreSQL under the hood but provides a unified API and a single pane of glass for managing all three database types.
@@ -466,4 +466,4 @@
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-06._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-07._
